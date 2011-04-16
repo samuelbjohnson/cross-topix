@@ -1,0 +1,5 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://www3.cpdl.org/wiki/index.php/%22Gloriosus%22_und_%22Mirabilis%22_(Robert_F%C3%BChrer)> dcterms:title """"Gloriosus" und "Mirabilis" (Robert FÃ¼hrer)""" .
+<http://www3.cpdl.org/wiki/index.php/%27O%27-Antiphonae_(Frans_Joseph_Krafft)> dcterms:title """'O'-Antiphonae (Frans Joseph Krafft)""" .
+<http://www3.cpdl.org/wiki/index.php/%27Tis_me,_O_Lord_(Standin%27_in_de_need_of_pray%27r)_(Traditional)> dcterms:title """'Tis me, O Lord (Standin' in de need of pray'r) (Traditional)""" .

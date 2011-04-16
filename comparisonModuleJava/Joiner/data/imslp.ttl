@@ -1,0 +1,11 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://imslp.org/wiki/%271830%27_Variations_(Nin,_Joaquin)> dcterms:title """'1830' Variations (Nin, Joaquin)""" .
+<http://imslp.org/wiki/%27Abegg%27_Variations_Op.1_(Schumann,_Robert)> dcterms:title """'Abegg' Variations Op.1 (Schumann, Robert)""" .
+<http://imslp.org/wiki/%27Ah_se_in_ciel%27,_K.538_(Mozart,_Wolfgang_Amadeus)> dcterms:title """'Ah se in ciel', K.538 (Mozart, Wolfgang Amadeus)""" .
+<http://imslp.org/wiki/%27Alcandro,_lo_confesso%27,_K.512_(Mozart,_Wolfgang_Amadeus)> dcterms:title """'Alcandro, lo confesso', K.512 (Mozart, Wolfgang Amadeus)""" .
+<http://imslp.org/wiki/%27Altro_medico_a_cercare%27_(Sarti,_Giuseppe)> dcterms:title """'Altro medico a cercare' (Sarti, Giuseppe)""" .
+<http://imslp.org/wiki/%27Bella_mia_fiamma%27,_K.528_(Mozart,_Wolfgang_Amadeus)> dcterms:title """'Bella mia fiamma', K.528 (Mozart, Wolfgang Amadeus)""" .
+<http://imslp.org/wiki/%27Capriccio%27_da_sonare_cimbali_et_organi_(Stella,_Simone)> dcterms:title """'Capriccio' da sonare cimbali et organi (Stella, Simone)""" .
+<http://imslp.org/wiki/%27Ch%27io_mi_scordi_di_te%3F%27,_K.505_(Mozart,_Wolfgang_Amadeus)> dcterms:title """'Ch'io mi scordi di te?', K.505 (Mozart, Wolfgang Amadeus)""" .
+<http://imslp.org/wiki/%27Chantecler%27_for_String_Quartet,_Op.54_(Ratez,_Emile_Pierre)> dcterms:title """'Chantecler' for String Quartet, Op.54 (Ratez, Emile Pierre)""" .
