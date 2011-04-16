@@ -1,3 +1,4 @@
+.DS_Store
 .metadata/.lock
 .metadata/.lock
 .metadata/.log
@@ -280,3 +281,5 @@ comparisonModuleJava/.metadata/.plugins/org.maven.ide.eclipse/nexus/d9d714e11cb0
 comparisonModuleJava/.metadata/.plugins/org.maven.ide.eclipse/workspaceState.ser
 comparisonModuleJava/.metadata/.plugins/org.python.pydev/ping.log
 comparisonModuleJava/.metadata/version.ini
+
+.DS_Store
