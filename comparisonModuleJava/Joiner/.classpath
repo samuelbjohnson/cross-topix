@@ -5,5 +5,6 @@
 	<classpathentry kind="lib" path="/Users/johnss4-1/Software/openrdf-sesame-2.3.3-onejar.jar"/>
 	<classpathentry kind="lib" path="/Users/johnss4-1/Software/slf4j-1.6.1/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="/Users/johnss4-1/Software/slf4j-1.6.1/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/johnss4-1/Software/commons-lang3-3.0-beta/commons-lang3-3.0-beta.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
