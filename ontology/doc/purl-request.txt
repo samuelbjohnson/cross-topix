@@ -1,0 +1,4 @@
+Path:            /twc/vocab/cross-topix.owl#
+Type of PURL:    303
+Maintainers IDs: timrdf
+SeeAlso URL:     https://github.com/samuelbjohnson/cross-topix/raw/master/ontology/vocab.ttl
