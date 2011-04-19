@@ -1,0 +1,14 @@
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vs:      <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+@prefix xt:      <http://purl.org/twc/ontology/cross-topix.owl#> .
+
+# Example:
+#
+# <http://todo.org/cross-topix/similarity/md512345>
+#    us:comparator_1 <http://ugly.org/wiki/A.html>;
+#    us:comparator_2 <http://ugly.org/wiki/B.html>;
+#    us:similarity .89
+#.
