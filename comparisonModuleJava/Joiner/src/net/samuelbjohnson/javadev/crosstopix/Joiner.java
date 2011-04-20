@@ -17,9 +17,11 @@
 
 package net.samuelbjohnson.javadev.crosstopix;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -55,21 +57,34 @@ public class Joiner {
 	 * @throws NoSuchAlgorithmException 
 	 */
 	public static void main(String[] args) throws RDFParseException, RDFHandlerException, IOException, RepositoryException, NoSuchAlgorithmException {
-		/*TurtleParserFactory parserFactory = new TurtleParserFactory();
-		RDFParser parser = parserFactory.getParser();
-		System.out.println(parser.getRDFFormat());
-		parser.setRDFHandler(new PageTitleListStatementHandler(System.out));
-		BufferedReader reader = new BufferedReader(new FileReader(new File("data/sample.ttl")));
-		parser.parse(reader, "");
-		*/
+		String file1, file2;
 		
-		Joiner j = new Joiner("/Users/johnss4-1/Sites/cross-topix/page-titles/imslp.org/manual/index-pages/index-pages/aggregate/imslp.ttl", 
-				"/Users/johnss4-1/Sites/cross-topix/page-titles/cpdl.org/manual/index-pages/aggregate/cpdl.ttl");
+		if (args.length < 1) {
+			System.out.println("Please name the files you'd like to join.");
+			System.out.print("First File: ");
+			file1 = getFileName();
+			System.out.print("Second File: ");
+			file2 = getFileName();
+		} else if (args.length == 1) {
+			System.out.println("Please name the second file you'd like to join.");
+			System.out.print("Second File: ");
+			file1 = args[0];
+			file2 = getFileName();
+		} else {
+			file1 = args[0];
+			file2 = args[1];
+		}
+		
+		Joiner j = new Joiner(file1, file2);
 		j.processJoin();
 	}
 	
+	private static String getFileName() throws IOException {
+		return (new BufferedReader(new InputStreamReader(System.in))).readLine();
+	}
+	
 	public Joiner(String imslpFile, String cpdlFile) throws RepositoryException, RDFParseException, IOException, NoSuchAlgorithmException {
-		File output = new File("data/output.ttl");
+		File output = new File("output.ttl");
 		outputWriter = new PrintWriter(new FileWriter(output));
 		
 		outputWriter.println("@prefix dcterms: <http://purl.org/dc/terms/> .");
