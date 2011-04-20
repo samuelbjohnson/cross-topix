@@ -1,0 +1,27 @@
+April 20, 2011
+
+
+Compared the files:
+
+	imslp_test_amanda.ttl
+	cpdl_test_amanda.ttl
+
+Results are in results_amanda.ttl
+
+ran with java -jar joiner.jar imslp_test_amanda.ttl cpdl_test_amanda.ttl
+
+
+Notes:
+
+> I think it would be a good addition if we could normalize the comparison value to take into account the length of the strings being compared. For the very short titles, the result tends to be very low (meaning that it is a good match) when in reality it is only low due to the fact that there are not many letters to be compared.
+
+> Other than that, the comparisons seem to be doing well.
+
+> If it is possible to do string comparisons based on words (rather than the entire string) I feel that this would give us a better idea since each wiki gives names out of order, so for example
+
+	Mozart, Wolfgang Amadeus
+	Wolfgang Amadeus Mozart
+
+Should be the same, but the current comparison does not recognize that these two are displaying the same information. 
+	 
+
