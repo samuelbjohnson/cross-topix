@@ -8,7 +8,49 @@
 # Example:
 #
 # <http://todo.org/cross-topix/similarity/md512345>
-#    us:comparator_1 <http://ugly.org/wiki/A.html>;
-#    us:comparator_2 <http://ugly.org/wiki/B.html>;
-#    us:similarity .89
+#    xt:comparator_1 <http://ugly.org/wiki/A.html>;
+#    xt:comparator_2 <http://ugly.org/wiki/B.html>;
+#    xt:similarity .89
 #.
+
+xt:comparable_1
+   a owl:ObjectProperty;
+   rdfs:comment "The first thing that is being compared.";
+   rdfs:domain xt:Comparison;
+   rdfs:subPropertyOf xt:comparable;
+.
+
+xt:comparable_2
+   a owl:ObjectProperty;
+   rdfs:comment "The second thing that is being compared.";
+   rdfs:domain xt:Comparison;
+   rdfs:subPropertyOf xt:comparable;
+.
+
+xt:similarity
+   a owl:DatatypeProperty;
+   rdfs:comment "A quantity characterizing the similarity of the resources cited.";
+   rdfs:domain xt:Comparison;
+   rdfs:range xsd:decimal;
+.
+
+xt:Comparison
+   a owl:Class;
+   rdfs:label "Comparison";
+   rdfs:comment "A quantified comparison of two resources.";
+   rdfs:subClassOf [
+      a owl:Restriction;
+      owl:onProperty xt:comparable_1;
+      owl:maxCardinality 1;
+   ];
+   rdfs:subClassOf [
+      a owl:Restriction;
+      owl:onProperty xt:comparable_2;
+      owl:maxCardinality 1;
+   ];
+   rdfs:subClassOf [
+      a owl:Restriction;
+      owl:onProperty xt:similarity;
+      owl:maxCardinality 1;
+   ];
+.
