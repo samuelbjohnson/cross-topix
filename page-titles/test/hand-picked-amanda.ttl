@@ -1,3 +1,5 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
 # Ave verum corpus, K. 618 by Wolfgang Amadeus Mozart
 <http://www3.cpdl.org/wiki/index.php/Ave_verum_corpus,_KV_618_(Wolfgang_Amadeus_Mozart)>
    dcterms:title "Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart)" .
