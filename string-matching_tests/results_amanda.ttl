@@ -1,0 +1,603 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix us:          <http://purl.org/twc/ontology/cross-topix.owl#> .
+
+<http://todo.org/cross-topix/similarity/[B@f3d6a5>
+	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
+	us:similarity 17
+.
+
+<http://todo.org/cross-topix/similarity/[B@911f71>
+	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
+	us:similarity 58
+.
+
+<http://todo.org/cross-topix/similarity/[B@1a73d3c>
+	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
+	us:similarity 39
+.
+
+<http://todo.org/cross-topix/similarity/[B@a56a7c>
+	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
+	us:similarity 42
+.
+
+<http://todo.org/cross-topix/similarity/[B@1f20eeb>
+	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
+	us:similarity 61
+.
+
+<http://todo.org/cross-topix/similarity/[B@b179c3>
+	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
+	us:similarity 33
+.
+
+<http://todo.org/cross-topix/similarity/[B@1b10d42>
+	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
+	us:similarity 42
+.
+
+<http://todo.org/cross-topix/similarity/[B@dd87b2>
+	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Gustav Holst;
+	us:similarity 43
+.
+
+<http://todo.org/cross-topix/similarity/[B@1f7d134>
+	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Franz Liszt;
+	us:similarity 46
+.
+
+<http://todo.org/cross-topix/similarity/[B@c7e553>
+	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Camille Saint-Sa?ns;
+	us:similarity 44
+.
+
+<http://todo.org/cross-topix/similarity/[B@e2eec8>
+	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
+	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
+	us:similarity 46
+.
+
+<http://todo.org/cross-topix/similarity/[B@aa9835>
+	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
+	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
+	us:similarity 36
+.
+
+<http://todo.org/cross-topix/similarity/[B@1eec612>
+	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
+	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
+	us:similarity 46
+.
+
+<http://todo.org/cross-topix/similarity/[B@10dd1f7>
+	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
+	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
+	us:similarity 48
+.
+
+<http://todo.org/cross-topix/similarity/[B@53c015>
+	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
+	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
+	us:similarity 61
+.
+
+<http://todo.org/cross-topix/similarity/[B@e80a59>
+	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
+	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
+	us:similarity 48
+.
+
+<http://todo.org/cross-topix/similarity/[B@1ff5ea7>
+	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
+	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
+	us:similarity 41
+.
+
+<http://todo.org/cross-topix/similarity/[B@9f2a0b>
+	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
+	us:comparator_1 Gustav Holst;
+	us:similarity 53
+.
+
+<http://todo.org/cross-topix/similarity/[B@1813fac>
+	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
+	us:comparator_1 Franz Liszt;
+	us:similarity 54
+.
+
+<http://todo.org/cross-topix/similarity/[B@7b7072>
+	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
+	us:comparator_1 Camille Saint-Sa?ns;
+	us:similarity 49
+.
+
+<http://todo.org/cross-topix/similarity/[B@136228>
+	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
+	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
+	us:similarity 42
+.
+
+<http://todo.org/cross-topix/similarity/[B@913750>
+	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
+	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
+	us:similarity 54
+.
+
+<http://todo.org/cross-topix/similarity/[B@1c672d0>
+	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
+	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
+	us:similarity 23
+.
+
+<http://todo.org/cross-topix/similarity/[B@19bd03e>
+	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
+	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
+	us:similarity 32
+.
+
+<http://todo.org/cross-topix/similarity/[B@84abc9>
+	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
+	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
+	us:similarity 57
+.
+
+<http://todo.org/cross-topix/similarity/[B@2a340e>
+	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
+	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
+	us:similarity 35
+.
+
+<http://todo.org/cross-topix/similarity/[B@bfbdb0>
+	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
+	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
+	us:similarity 35
+.
+
+<http://todo.org/cross-topix/similarity/[B@3e86d0>
+	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
+	us:comparator_1 Gustav Holst;
+	us:similarity 36
+.
+
+<http://todo.org/cross-topix/similarity/[B@1050169>
+	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
+	us:comparator_1 Franz Liszt;
+	us:similarity 34
+.
+
+<http://todo.org/cross-topix/similarity/[B@19fcc69>
+	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
+	us:comparator_1 Camille Saint-Sa?ns;
+	us:similarity 32
+.
+
+<http://todo.org/cross-topix/similarity/[B@253498>
+	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
+	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
+	us:similarity 40
+.
+
+<http://todo.org/cross-topix/similarity/[B@9fef6f>
+	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
+	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
+	us:similarity 54
+.
+
+<http://todo.org/cross-topix/similarity/[B@209f4e>
+	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
+	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
+	us:similarity 36
+.
+
+<http://todo.org/cross-topix/similarity/[B@1bac748>
+	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
+	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
+	us:similarity 19
+.
+
+<http://todo.org/cross-topix/similarity/[B@17172ea>
+	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
+	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
+	us:similarity 63
+.
+
+<http://todo.org/cross-topix/similarity/[B@12f6684>
+	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
+	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
+	us:similarity 37
+.
+
+<http://todo.org/cross-topix/similarity/[B@f38798>
+	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
+	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
+	us:similarity 36
+.
+
+<http://todo.org/cross-topix/similarity/[B@4b222f>
+	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
+	us:comparator_1 Gustav Holst;
+	us:similarity 32
+.
+
+<http://todo.org/cross-topix/similarity/[B@b169f8>
+	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
+	us:comparator_1 Franz Liszt;
+	us:similarity 34
+.
+
+<http://todo.org/cross-topix/similarity/[B@1a457b6>
+	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
+	us:comparator_1 Camille Saint-Sa?ns;
+	us:similarity 32
+.
+
+<http://todo.org/cross-topix/similarity/[B@7a78d3>
+	us:comparator_1 Symphony No.2 (Mahler, Gustav);
+	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
+	us:similarity 40
+.
+
+<http://todo.org/cross-topix/similarity/[B@929206>
+	us:comparator_1 Symphony No.2 (Mahler, Gustav);
+	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
+	us:similarity 57
+.
+
+<http://todo.org/cross-topix/similarity/[B@b0f13d>
+	us:comparator_1 Symphony No.2 (Mahler, Gustav);
+	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
+	us:similarity 36
+.
+
+<http://todo.org/cross-topix/similarity/[B@ae000d>
+	us:comparator_1 Symphony No.2 (Mahler, Gustav);
+	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
+	us:similarity 25
+.
+
+<http://todo.org/cross-topix/similarity/[B@1855af5>
+	us:comparator_1 Symphony No.2 (Mahler, Gustav);
+	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
+	us:similarity 47
+.
+
+<http://todo.org/cross-topix/similarity/[B@169e11>
+	us:comparator_1 Symphony No.2 (Mahler, Gustav);
+	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
+	us:similarity 32
+.
+
+<http://todo.org/cross-topix/similarity/[B@e39a3e>
+	us:comparator_1 Symphony No.2 (Mahler, Gustav);
+	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
+	us:similarity 38
+.
+
+<http://todo.org/cross-topix/similarity/[B@a39137>
+	us:comparator_1 Symphony No.2 (Mahler, Gustav);
+	us:comparator_1 Gustav Holst;
+	us:similarity 25
+.
+
+<http://todo.org/cross-topix/similarity/[B@92e78c>
+	us:comparator_1 Symphony No.2 (Mahler, Gustav);
+	us:comparator_1 Franz Liszt;
+	us:similarity 27
+.
+
+<http://todo.org/cross-topix/similarity/[B@9fbe93>
+	us:comparator_1 Symphony No.2 (Mahler, Gustav);
+	us:comparator_1 Camille Saint-Sa?ns;
+	us:similarity 26
+.
+
+<http://todo.org/cross-topix/similarity/[B@198dfaf>
+	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
+	us:similarity 35
+.
+
+<http://todo.org/cross-topix/similarity/[B@1858610>
+	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
+	us:similarity 58
+.
+
+<http://todo.org/cross-topix/similarity/[B@12498b5>
+	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
+	us:similarity 41
+.
+
+<http://todo.org/cross-topix/similarity/[B@1a5ab41>
+	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
+	us:similarity 43
+.
+
+<http://todo.org/cross-topix/similarity/[B@18e3e60>
+	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
+	us:similarity 57
+.
+
+<http://todo.org/cross-topix/similarity/[B@1a125f0>
+	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
+	us:similarity 28
+.
+
+<http://todo.org/cross-topix/similarity/[B@c1cd1f>
+	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
+	us:similarity 43
+.
+
+<http://todo.org/cross-topix/similarity/[B@181afa3>
+	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Gustav Holst;
+	us:similarity 46
+.
+
+<http://todo.org/cross-topix/similarity/[B@131f71a>
+	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Franz Liszt;
+	us:similarity 47
+.
+
+<http://todo.org/cross-topix/similarity/[B@15601ea>
+	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
+	us:comparator_1 Camille Saint-Sa?ns;
+	us:similarity 45
+.
+
+<http://todo.org/cross-topix/similarity/[B@197d257>
+	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
+	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
+	us:similarity 48
+.
+
+<http://todo.org/cross-topix/similarity/[B@7259da>
+	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
+	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
+	us:similarity 55
+.
+
+<http://todo.org/cross-topix/similarity/[B@16930e2>
+	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
+	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
+	us:similarity 43
+.
+
+<http://todo.org/cross-topix/similarity/[B@108786b>
+	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
+	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
+	us:similarity 47
+.
+
+<http://todo.org/cross-topix/similarity/[B@119c082>
+	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
+	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
+	us:similarity 56
+.
+
+<http://todo.org/cross-topix/similarity/[B@1add2dd>
+	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
+	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
+	us:similarity 45
+.
+
+<http://todo.org/cross-topix/similarity/[B@eee36c>
+	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
+	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
+	us:similarity 21
+.
+
+<http://todo.org/cross-topix/similarity/[B@194df86>
+	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
+	us:comparator_1 Gustav Holst;
+	us:similarity 49
+.
+
+<http://todo.org/cross-topix/similarity/[B@defa1a>
+	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
+	us:comparator_1 Franz Liszt;
+	us:similarity 49
+.
+
+<http://todo.org/cross-topix/similarity/[B@f5da06>
+	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
+	us:comparator_1 Camille Saint-Sa?ns;
+	us:similarity 51
+.
+
+<http://todo.org/cross-topix/similarity/[B@bd0108>
+	us:comparator_1 Category:Holst, Gustav;
+	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
+	us:similarity 41
+.
+
+<http://todo.org/cross-topix/similarity/[B@8ed465>
+	us:comparator_1 Category:Holst, Gustav;
+	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
+	us:similarity 58
+.
+
+<http://todo.org/cross-topix/similarity/[B@11a698a>
+	us:comparator_1 Category:Holst, Gustav;
+	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
+	us:similarity 40
+.
+
+<http://todo.org/cross-topix/similarity/[B@107077e>
+	us:comparator_1 Category:Holst, Gustav;
+	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
+	us:similarity 25
+.
+
+<http://todo.org/cross-topix/similarity/[B@7ced01>
+	us:comparator_1 Category:Holst, Gustav;
+	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
+	us:similarity 60
+.
+
+<http://todo.org/cross-topix/similarity/[B@1ac04e8>
+	us:comparator_1 Category:Holst, Gustav;
+	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
+	us:similarity 34
+.
+
+<http://todo.org/cross-topix/similarity/[B@765291>
+	us:comparator_1 Category:Holst, Gustav;
+	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
+	us:similarity 38
+.
+
+<http://todo.org/cross-topix/similarity/[B@26e431>
+	us:comparator_1 Category:Holst, Gustav;
+	us:comparator_1 Gustav Holst;
+	us:similarity 17
+.
+
+<http://todo.org/cross-topix/similarity/[B@14f8dab>
+	us:comparator_1 Category:Holst, Gustav;
+	us:comparator_1 Franz Liszt;
+	us:similarity 19
+.
+
+<http://todo.org/cross-topix/similarity/[B@1ddebc3>
+	us:comparator_1 Category:Holst, Gustav;
+	us:comparator_1 Camille Saint-Sa?ns;
+	us:similarity 19
+.
+
+<http://todo.org/cross-topix/similarity/[B@a18aa2>
+	us:comparator_1 Category:Liszt, Franz;
+	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
+	us:similarity 43
+.
+
+<http://todo.org/cross-topix/similarity/[B@194ca6c>
+	us:comparator_1 Category:Liszt, Franz;
+	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
+	us:similarity 59
+.
+
+<http://todo.org/cross-topix/similarity/[B@17590db>
+	us:comparator_1 Category:Liszt, Franz;
+	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
+	us:similarity 40
+.
+
+<http://todo.org/cross-topix/similarity/[B@17943a4>
+	us:comparator_1 Category:Liszt, Franz;
+	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
+	us:similarity 25
+.
+
+<http://todo.org/cross-topix/similarity/[B@480457>
+	us:comparator_1 Category:Liszt, Franz;
+	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
+	us:similarity 65
+.
+
+<http://todo.org/cross-topix/similarity/[B@14fe5c>
+	us:comparator_1 Category:Liszt, Franz;
+	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
+	us:similarity 37
+.
+
+<http://todo.org/cross-topix/similarity/[B@47858e>
+	us:comparator_1 Category:Liszt, Franz;
+	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
+	us:similarity 37
+.
+
+<http://todo.org/cross-topix/similarity/[B@19134f4>
+	us:comparator_1 Category:Liszt, Franz;
+	us:comparator_1 Gustav Holst;
+	us:similarity 19
+.
+
+<http://todo.org/cross-topix/similarity/[B@2bbd86>
+	us:comparator_1 Category:Liszt, Franz;
+	us:comparator_1 Franz Liszt;
+	us:similarity 16
+.
+
+<http://todo.org/cross-topix/similarity/[B@1a7bf11>
+	us:comparator_1 Category:Liszt, Franz;
+	us:comparator_1 Camille Saint-Sa?ns;
+	us:similarity 16
+.
+
+<http://todo.org/cross-topix/similarity/[B@1f12c4e>
+	us:comparator_1 Category:Saint-Sa?ns, Camille;
+	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
+	us:similarity 44
+.
+
+<http://todo.org/cross-topix/similarity/[B@93dee9>
+	us:comparator_1 Category:Saint-Sa?ns, Camille;
+	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
+	us:similarity 58
+.
+
+<http://todo.org/cross-topix/similarity/[B@fabe9>
+	us:comparator_1 Category:Saint-Sa?ns, Camille;
+	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
+	us:similarity 39
+.
+
+<http://todo.org/cross-topix/similarity/[B@df6ccd>
+	us:comparator_1 Category:Saint-Sa?ns, Camille;
+	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
+	us:similarity 26
+.
+
+<http://todo.org/cross-topix/similarity/[B@601bb1>
+	us:comparator_1 Category:Saint-Sa?ns, Camille;
+	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
+	us:similarity 61
+.
+
+<http://todo.org/cross-topix/similarity/[B@1ba34f2>
+	us:comparator_1 Category:Saint-Sa?ns, Camille;
+	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
+	us:similarity 37
+.
+
+<http://todo.org/cross-topix/similarity/[B@1ea2dfe>
+	us:comparator_1 Category:Saint-Sa?ns, Camille;
+	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
+	us:similarity 39
+.
+
+<http://todo.org/cross-topix/similarity/[B@17182c1>
+	us:comparator_1 Category:Saint-Sa?ns, Camille;
+	us:comparator_1 Gustav Holst;
+	us:similarity 25
+.
+
+<http://todo.org/cross-topix/similarity/[B@13f5d07>
+	us:comparator_1 Category:Saint-Sa?ns, Camille;
+	us:comparator_1 Franz Liszt;
+	us:similarity 24
+.
+
+<http://todo.org/cross-topix/similarity/[B@f4a24a>
+	us:comparator_1 Category:Saint-Sa?ns, Camille;
+	us:comparator_1 Camille Saint-Sa?ns;
+	us:similarity 16
+.
+
