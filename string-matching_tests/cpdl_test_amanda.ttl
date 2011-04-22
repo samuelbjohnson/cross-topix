@@ -6,7 +6,8 @@
 <http://www3.cpdl.org/wiki/index.php/Stabat_Mater_(Anton%C3%ADn_Dvo%C5%99%C3%A1k)> dcterms:title "Stabat Mater (AntonÃ­n DvoÅ™Ã¡k)" .
 <http://www3.cpdl.org/wiki/index.php/Symphony_No._2_in_C_Minor_(%27Resurrection%27)_-_choral_score_(Gustav_Mahler)> dcterms:title "Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler)" . 
 <http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)> dcterms:title "Requiem, KV 626 (Wolfgang Amadeus Mozart)" .
-<http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> dcterms:title """Grande messe des morts, H 75 (Hector Berlioz)" .
-<http://www3.cpdl.org/wiki/index.php/Gustav_Holst> dcterms:title "Gustav Holst".
-<http://www3.cpdl.org/wiki/index.php/Franz_Liszt> dcterms:title "Franz Liszt".
-<http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> dcterms:title "Camille Saint-Saëns".
+<http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> dcterms:title "Grande messe des morts, H 75 (Hector Berlioz)" .
+<http://www3.cpdl.org/wiki/index.php/Gustav_Holst> dcterms:title "Gustav Holst" .
+<http://www3.cpdl.org/wiki/index.php/Franz_Liszt> dcterms:title "Franz Liszt" .
+<http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> dcterms:title "Camille Saint-Saëns" .
+

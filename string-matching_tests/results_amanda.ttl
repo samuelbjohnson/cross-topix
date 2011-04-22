@@ -1,603 +1,400 @@
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix us:          <http://purl.org/twc/ontology/cross-topix.owl#> .
-
-<http://todo.org/cross-topix/similarity/[B@f3d6a5>
-	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
-	us:similarity 17
-.
-
-<http://todo.org/cross-topix/similarity/[B@911f71>
-	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
-	us:similarity 58
-.
-
-<http://todo.org/cross-topix/similarity/[B@1a73d3c>
-	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
-	us:similarity 39
-.
-
-<http://todo.org/cross-topix/similarity/[B@a56a7c>
-	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
-	us:similarity 42
-.
-
-<http://todo.org/cross-topix/similarity/[B@1f20eeb>
-	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
-	us:similarity 61
-.
-
-<http://todo.org/cross-topix/similarity/[B@b179c3>
-	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
-	us:similarity 33
-.
-
-<http://todo.org/cross-topix/similarity/[B@1b10d42>
-	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
-	us:similarity 42
-.
-
-<http://todo.org/cross-topix/similarity/[B@dd87b2>
-	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Gustav Holst;
-	us:similarity 43
-.
-
-<http://todo.org/cross-topix/similarity/[B@1f7d134>
-	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Franz Liszt;
-	us:similarity 46
-.
-
-<http://todo.org/cross-topix/similarity/[B@c7e553>
-	us:comparator_1 Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Camille Saint-Sa?ns;
-	us:similarity 44
-.
-
-<http://todo.org/cross-topix/similarity/[B@e2eec8>
-	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
-	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
-	us:similarity 46
-.
-
-<http://todo.org/cross-topix/similarity/[B@aa9835>
-	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
-	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
-	us:similarity 36
-.
-
-<http://todo.org/cross-topix/similarity/[B@1eec612>
-	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
-	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
-	us:similarity 46
-.
-
-<http://todo.org/cross-topix/similarity/[B@10dd1f7>
-	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
-	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
-	us:similarity 48
-.
-
-<http://todo.org/cross-topix/similarity/[B@53c015>
-	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
-	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
-	us:similarity 61
-.
-
-<http://todo.org/cross-topix/similarity/[B@e80a59>
-	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
-	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
-	us:similarity 48
-.
-
-<http://todo.org/cross-topix/similarity/[B@1ff5ea7>
-	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
-	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
-	us:similarity 41
-.
-
-<http://todo.org/cross-topix/similarity/[B@9f2a0b>
-	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
-	us:comparator_1 Gustav Holst;
-	us:similarity 53
-.
-
-<http://todo.org/cross-topix/similarity/[B@1813fac>
-	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
-	us:comparator_1 Franz Liszt;
-	us:similarity 54
-.
-
-<http://todo.org/cross-topix/similarity/[B@7b7072>
-	us:comparator_1 Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian);
-	us:comparator_1 Camille Saint-Sa?ns;
-	us:similarity 49
-.
-
-<http://todo.org/cross-topix/similarity/[B@136228>
-	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
-	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
-	us:similarity 42
-.
-
-<http://todo.org/cross-topix/similarity/[B@913750>
-	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
-	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
-	us:similarity 54
-.
-
-<http://todo.org/cross-topix/similarity/[B@1c672d0>
-	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
-	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
-	us:similarity 23
-.
-
-<http://todo.org/cross-topix/similarity/[B@19bd03e>
-	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
-	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
-	us:similarity 32
-.
-
-<http://todo.org/cross-topix/similarity/[B@84abc9>
-	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
-	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
-	us:similarity 57
-.
-
-<http://todo.org/cross-topix/similarity/[B@2a340e>
-	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
-	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
-	us:similarity 35
-.
-
-<http://todo.org/cross-topix/similarity/[B@bfbdb0>
-	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
-	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
-	us:similarity 35
-.
-
-<http://todo.org/cross-topix/similarity/[B@3e86d0>
-	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
-	us:comparator_1 Gustav Holst;
-	us:similarity 36
-.
-
-<http://todo.org/cross-topix/similarity/[B@1050169>
-	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
-	us:comparator_1 Franz Liszt;
-	us:similarity 34
-.
-
-<http://todo.org/cross-topix/similarity/[B@19fcc69>
-	us:comparator_1 Abendlied (Rheinberger, Josef Gabriel);
-	us:comparator_1 Camille Saint-Sa?ns;
-	us:similarity 32
-.
-
-<http://todo.org/cross-topix/similarity/[B@253498>
-	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
-	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
-	us:similarity 40
-.
-
-<http://todo.org/cross-topix/similarity/[B@9fef6f>
-	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
-	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
-	us:similarity 54
-.
-
-<http://todo.org/cross-topix/similarity/[B@209f4e>
-	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
-	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
-	us:similarity 36
-.
-
-<http://todo.org/cross-topix/similarity/[B@1bac748>
-	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
-	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
-	us:similarity 19
-.
-
-<http://todo.org/cross-topix/similarity/[B@17172ea>
-	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
-	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
-	us:similarity 63
-.
-
-<http://todo.org/cross-topix/similarity/[B@12f6684>
-	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
-	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
-	us:similarity 37
-.
-
-<http://todo.org/cross-topix/similarity/[B@f38798>
-	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
-	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
-	us:similarity 36
-.
-
-<http://todo.org/cross-topix/similarity/[B@4b222f>
-	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
-	us:comparator_1 Gustav Holst;
-	us:similarity 32
-.
-
-<http://todo.org/cross-topix/similarity/[B@b169f8>
-	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
-	us:comparator_1 Franz Liszt;
-	us:similarity 34
-.
-
-<http://todo.org/cross-topix/similarity/[B@1a457b6>
-	us:comparator_1 Stabat Mater, Op.58 (Dvo?ák, Antonín);
-	us:comparator_1 Camille Saint-Sa?ns;
-	us:similarity 32
-.
-
-<http://todo.org/cross-topix/similarity/[B@7a78d3>
-	us:comparator_1 Symphony No.2 (Mahler, Gustav);
-	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
-	us:similarity 40
-.
-
-<http://todo.org/cross-topix/similarity/[B@929206>
-	us:comparator_1 Symphony No.2 (Mahler, Gustav);
-	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
-	us:similarity 57
-.
-
-<http://todo.org/cross-topix/similarity/[B@b0f13d>
-	us:comparator_1 Symphony No.2 (Mahler, Gustav);
-	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
-	us:similarity 36
-.
-
-<http://todo.org/cross-topix/similarity/[B@ae000d>
-	us:comparator_1 Symphony No.2 (Mahler, Gustav);
-	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
-	us:similarity 25
-.
-
-<http://todo.org/cross-topix/similarity/[B@1855af5>
-	us:comparator_1 Symphony No.2 (Mahler, Gustav);
-	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
-	us:similarity 47
-.
-
-<http://todo.org/cross-topix/similarity/[B@169e11>
-	us:comparator_1 Symphony No.2 (Mahler, Gustav);
-	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
-	us:similarity 32
-.
-
-<http://todo.org/cross-topix/similarity/[B@e39a3e>
-	us:comparator_1 Symphony No.2 (Mahler, Gustav);
-	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
-	us:similarity 38
-.
-
-<http://todo.org/cross-topix/similarity/[B@a39137>
-	us:comparator_1 Symphony No.2 (Mahler, Gustav);
-	us:comparator_1 Gustav Holst;
-	us:similarity 25
-.
-
-<http://todo.org/cross-topix/similarity/[B@92e78c>
-	us:comparator_1 Symphony No.2 (Mahler, Gustav);
-	us:comparator_1 Franz Liszt;
-	us:similarity 27
-.
-
-<http://todo.org/cross-topix/similarity/[B@9fbe93>
-	us:comparator_1 Symphony No.2 (Mahler, Gustav);
-	us:comparator_1 Camille Saint-Sa?ns;
-	us:similarity 26
-.
-
-<http://todo.org/cross-topix/similarity/[B@198dfaf>
-	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
-	us:similarity 35
-.
-
-<http://todo.org/cross-topix/similarity/[B@1858610>
-	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
-	us:similarity 58
-.
-
-<http://todo.org/cross-topix/similarity/[B@12498b5>
-	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
-	us:similarity 41
-.
-
-<http://todo.org/cross-topix/similarity/[B@1a5ab41>
-	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
-	us:similarity 43
-.
-
-<http://todo.org/cross-topix/similarity/[B@18e3e60>
-	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
-	us:similarity 57
-.
-
-<http://todo.org/cross-topix/similarity/[B@1a125f0>
-	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
-	us:similarity 28
-.
-
-<http://todo.org/cross-topix/similarity/[B@c1cd1f>
-	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
-	us:similarity 43
-.
-
-<http://todo.org/cross-topix/similarity/[B@181afa3>
-	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Gustav Holst;
-	us:similarity 46
-.
-
-<http://todo.org/cross-topix/similarity/[B@131f71a>
-	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Franz Liszt;
-	us:similarity 47
-.
-
-<http://todo.org/cross-topix/similarity/[B@15601ea>
-	us:comparator_1 Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus);
-	us:comparator_1 Camille Saint-Sa?ns;
-	us:similarity 45
-.
-
-<http://todo.org/cross-topix/similarity/[B@197d257>
-	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
-	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
-	us:similarity 48
-.
-
-<http://todo.org/cross-topix/similarity/[B@7259da>
-	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
-	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
-	us:similarity 55
-.
-
-<http://todo.org/cross-topix/similarity/[B@16930e2>
-	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
-	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
-	us:similarity 43
-.
-
-<http://todo.org/cross-topix/similarity/[B@108786b>
-	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
-	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
-	us:similarity 47
-.
-
-<http://todo.org/cross-topix/similarity/[B@119c082>
-	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
-	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
-	us:similarity 56
-.
-
-<http://todo.org/cross-topix/similarity/[B@1add2dd>
-	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
-	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
-	us:similarity 45
-.
-
-<http://todo.org/cross-topix/similarity/[B@eee36c>
-	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
-	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
-	us:similarity 21
-.
-
-<http://todo.org/cross-topix/similarity/[B@194df86>
-	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
-	us:comparator_1 Gustav Holst;
-	us:similarity 49
-.
-
-<http://todo.org/cross-topix/similarity/[B@defa1a>
-	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
-	us:comparator_1 Franz Liszt;
-	us:similarity 49
-.
-
-<http://todo.org/cross-topix/similarity/[B@f5da06>
-	us:comparator_1 Grande messe des morts (Requiem), H 75 (Berlioz, Hector);
-	us:comparator_1 Camille Saint-Sa?ns;
-	us:similarity 51
-.
-
-<http://todo.org/cross-topix/similarity/[B@bd0108>
-	us:comparator_1 Category:Holst, Gustav;
-	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
-	us:similarity 41
-.
-
-<http://todo.org/cross-topix/similarity/[B@8ed465>
-	us:comparator_1 Category:Holst, Gustav;
-	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
-	us:similarity 58
-.
-
-<http://todo.org/cross-topix/similarity/[B@11a698a>
-	us:comparator_1 Category:Holst, Gustav;
-	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
-	us:similarity 40
-.
-
-<http://todo.org/cross-topix/similarity/[B@107077e>
-	us:comparator_1 Category:Holst, Gustav;
-	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
-	us:similarity 25
-.
-
-<http://todo.org/cross-topix/similarity/[B@7ced01>
-	us:comparator_1 Category:Holst, Gustav;
-	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
-	us:similarity 60
-.
-
-<http://todo.org/cross-topix/similarity/[B@1ac04e8>
-	us:comparator_1 Category:Holst, Gustav;
-	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
-	us:similarity 34
-.
-
-<http://todo.org/cross-topix/similarity/[B@765291>
-	us:comparator_1 Category:Holst, Gustav;
-	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
-	us:similarity 38
-.
-
-<http://todo.org/cross-topix/similarity/[B@26e431>
-	us:comparator_1 Category:Holst, Gustav;
-	us:comparator_1 Gustav Holst;
-	us:similarity 17
-.
-
-<http://todo.org/cross-topix/similarity/[B@14f8dab>
-	us:comparator_1 Category:Holst, Gustav;
-	us:comparator_1 Franz Liszt;
-	us:similarity 19
-.
-
-<http://todo.org/cross-topix/similarity/[B@1ddebc3>
-	us:comparator_1 Category:Holst, Gustav;
-	us:comparator_1 Camille Saint-Sa?ns;
-	us:similarity 19
-.
-
-<http://todo.org/cross-topix/similarity/[B@a18aa2>
-	us:comparator_1 Category:Liszt, Franz;
-	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
-	us:similarity 43
-.
-
-<http://todo.org/cross-topix/similarity/[B@194ca6c>
-	us:comparator_1 Category:Liszt, Franz;
-	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
-	us:similarity 59
-.
-
-<http://todo.org/cross-topix/similarity/[B@17590db>
-	us:comparator_1 Category:Liszt, Franz;
-	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
-	us:similarity 40
-.
-
-<http://todo.org/cross-topix/similarity/[B@17943a4>
-	us:comparator_1 Category:Liszt, Franz;
-	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
-	us:similarity 25
-.
-
-<http://todo.org/cross-topix/similarity/[B@480457>
-	us:comparator_1 Category:Liszt, Franz;
-	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
-	us:similarity 65
-.
-
-<http://todo.org/cross-topix/similarity/[B@14fe5c>
-	us:comparator_1 Category:Liszt, Franz;
-	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
-	us:similarity 37
-.
-
-<http://todo.org/cross-topix/similarity/[B@47858e>
-	us:comparator_1 Category:Liszt, Franz;
-	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
-	us:similarity 37
-.
-
-<http://todo.org/cross-topix/similarity/[B@19134f4>
-	us:comparator_1 Category:Liszt, Franz;
-	us:comparator_1 Gustav Holst;
-	us:similarity 19
-.
-
-<http://todo.org/cross-topix/similarity/[B@2bbd86>
-	us:comparator_1 Category:Liszt, Franz;
-	us:comparator_1 Franz Liszt;
-	us:similarity 16
-.
-
-<http://todo.org/cross-topix/similarity/[B@1a7bf11>
-	us:comparator_1 Category:Liszt, Franz;
-	us:comparator_1 Camille Saint-Sa?ns;
-	us:similarity 16
-.
-
-<http://todo.org/cross-topix/similarity/[B@1f12c4e>
-	us:comparator_1 Category:Saint-Sa?ns, Camille;
-	us:comparator_1 Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart);
-	us:similarity 44
-.
-
-<http://todo.org/cross-topix/similarity/[B@93dee9>
-	us:comparator_1 Category:Saint-Sa?ns, Camille;
-	us:comparator_1 Cantata BWV 21 - Ich hatte viel Bekümmerniss (Johann Sebastian Bach);
-	us:similarity 58
-.
-
-<http://todo.org/cross-topix/similarity/[B@fabe9>
-	us:comparator_1 Category:Saint-Sa?ns, Camille;
-	us:comparator_1 Abendlied, Op. 69, No. 3 (Josef Rheinberger);
-	us:similarity 39
-.
-
-<http://todo.org/cross-topix/similarity/[B@df6ccd>
-	us:comparator_1 Category:Saint-Sa?ns, Camille;
-	us:comparator_1 Stabat Mater (Antonín Dvo?ák);
-	us:similarity 26
-.
-
-<http://todo.org/cross-topix/similarity/[B@601bb1>
-	us:comparator_1 Category:Saint-Sa?ns, Camille;
-	us:comparator_1 Symphony No. 2 in C Minor ('Resurrection') - choral score (Gustav Mahler);
-	us:similarity 61
-.
-
-<http://todo.org/cross-topix/similarity/[B@1ba34f2>
-	us:comparator_1 Category:Saint-Sa?ns, Camille;
-	us:comparator_1 Requiem, KV 626 (Wolfgang Amadeus Mozart);
-	us:similarity 37
-.
-
-<http://todo.org/cross-topix/similarity/[B@1ea2dfe>
-	us:comparator_1 Category:Saint-Sa?ns, Camille;
-	us:comparator_1 Grande messe des morts, H 75 (Hector Berlioz);
-	us:similarity 39
-.
-
-<http://todo.org/cross-topix/similarity/[B@17182c1>
-	us:comparator_1 Category:Saint-Sa?ns, Camille;
-	us:comparator_1 Gustav Holst;
-	us:similarity 25
-.
-
-<http://todo.org/cross-topix/similarity/[B@13f5d07>
-	us:comparator_1 Category:Saint-Sa?ns, Camille;
-	us:comparator_1 Franz Liszt;
-	us:similarity 24
-.
-
-<http://todo.org/cross-topix/similarity/[B@f4a24a>
-	us:comparator_1 Category:Saint-Sa?ns, Camille;
-	us:comparator_1 Camille Saint-Sa?ns;
-	us:similarity 16
-.
 
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/551c2c8a0c2a2e07b488d1b8110c116f> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ave_verum_corpus,_K.618_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Ave_verum_corpus,_KV_618_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.36"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/3fd2a3f0ca6232cea176391103d921d1> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ave_verum_corpus,_K.618_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Cantata_BWV_21_-_Ich_hatte_viel_Bek%C3%BCmmerniss_(Johann_Sebastian_Bach)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.852941176"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/550f60b338261161509d5c69510855d4> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ave_verum_corpus,_K.618_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Abendlied,_Op._69,_No._3_(Josef_Rheinberger)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.816326531"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/4caa5989f65be8962dc0392eb7ed1a02> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ave_verum_corpus,_K.618_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Stabat_Mater_(Anton%C3%ADn_Dvo%C5%99%C3%A1k)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.836734694"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/20c9f3829b932aa6601cd95431e50768> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ave_verum_corpus,_K.618_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Symphony_No._2_in_C_Minor_(%27Resurrection%27)_-_choral_score_(Gustav_Mahler)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.821917808"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/bcb1fbb76cfad13b5b654db43b5efcbf> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ave_verum_corpus,_K.618_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.653061224"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/1029bbe172a9f21dc2b2d3c6c51d014a> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ave_verum_corpus,_K.618_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.857142857"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/6b6c26ce12ce8976eba5a832a2e3397d> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ave_verum_corpus,_K.618_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Gustav_Holst> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.857142857"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/602baf7cff41d1865cebf3dc7196a1ab> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ave_verum_corpus,_K.618_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Franz_Liszt> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.918367347"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/c9c815b050f000445e8dabdde5224826> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ave_verum_corpus,_K.618_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.87755102"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/267140dd72c693ddde050c408c1521c6> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ich_hatte_viel_Bek%C3%BCmmernis,_BWV_21_(Bach,_Johann_Sebastian)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Ave_verum_corpus,_KV_618_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.779661017"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/d2cbe66fa473358e28b8b86769ea45a1> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ich_hatte_viel_Bek%C3%BCmmernis,_BWV_21_(Bach,_Johann_Sebastian)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Cantata_BWV_21_-_Ich_hatte_viel_Bek%C3%BCmmerniss_(Johann_Sebastian_Bach)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.529411765"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/b666acbc1cdd9dc52a2d1c90deacab4a> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ich_hatte_viel_Bek%C3%BCmmernis,_BWV_21_(Bach,_Johann_Sebastian)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Abendlied,_Op._69,_No._3_(Josef_Rheinberger)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.779661017"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/7422b5d7f318cf2a5b95669db0ce44ec> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ich_hatte_viel_Bek%C3%BCmmernis,_BWV_21_(Bach,_Johann_Sebastian)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Stabat_Mater_(Anton%C3%ADn_Dvo%C5%99%C3%A1k)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.813559322"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/f0a4ed60ae1be19cdc2e1b716b459063> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ich_hatte_viel_Bek%C3%BCmmernis,_BWV_21_(Bach,_Johann_Sebastian)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Symphony_No._2_in_C_Minor_(%27Resurrection%27)_-_choral_score_(Gustav_Mahler)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.835616438"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/7e6ff3d5a9d382c2ee98de8ffce17c02> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ich_hatte_viel_Bek%C3%BCmmernis,_BWV_21_(Bach,_Johann_Sebastian)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.813559322"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/d328f1b89490dd76c10a2d2e6bbefde1> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ich_hatte_viel_Bek%C3%BCmmernis,_BWV_21_(Bach,_Johann_Sebastian)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.694915254"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/ec4fbc393eb52c60bcf935982b75bcd0> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ich_hatte_viel_Bek%C3%BCmmernis,_BWV_21_(Bach,_Johann_Sebastian)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Gustav_Holst> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.898305085"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/74646f86ec12768da58e08f6591701f1> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ich_hatte_viel_Bek%C3%BCmmernis,_BWV_21_(Bach,_Johann_Sebastian)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Franz_Liszt> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.915254237"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/d5d37af334830ae84ce480fbaaa32734> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Ich_hatte_viel_Bek%C3%BCmmernis,_BWV_21_(Bach,_Johann_Sebastian)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.830508475"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/a63644d63a20fc6462ac254ea994b990> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Abendlied_(Rheinberger,_Josef_Gabriel)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Ave_verum_corpus,_KV_618_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.84"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/bbc1d7fdb4ef13587f03de0605a577d7> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Abendlied_(Rheinberger,_Josef_Gabriel)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Cantata_BWV_21_-_Ich_hatte_viel_Bek%C3%BCmmerniss_(Johann_Sebastian_Bach)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.794117647"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/5cf9ee343734ef0caed0d66fffcd46bb> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Abendlied_(Rheinberger,_Josef_Gabriel)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Abendlied,_Op._69,_No._3_(Josef_Rheinberger)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.522727273"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/9ee27484fee4b64bdf39d713e418a7d> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Abendlied_(Rheinberger,_Josef_Gabriel)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Stabat_Mater_(Anton%C3%ADn_Dvo%C5%99%C3%A1k)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.842105263"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/d9a46d11bd15efef47708dac2896e804> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Abendlied_(Rheinberger,_Josef_Gabriel)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Symphony_No._2_in_C_Minor_(%27Resurrection%27)_-_choral_score_(Gustav_Mahler)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.780821918"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/544d5c37ff9d0ffc0309ebb6fb2ff6d4> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Abendlied_(Rheinberger,_Josef_Gabriel)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.853658537"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/c54b704a15b75375f71bdfee9a533880> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Abendlied_(Rheinberger,_Josef_Gabriel)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.777777778"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/d43e17c398b53a86f1921fe27e6c7d69> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Abendlied_(Rheinberger,_Josef_Gabriel)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Gustav_Holst> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.947368421"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/2333b691b12aad5bd9a6d7054ca9c9e5> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Abendlied_(Rheinberger,_Josef_Gabriel)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Franz_Liszt> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.894736842"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/36b9116b29627b73ca8063d2aa7cedbe> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Abendlied_(Rheinberger,_Josef_Gabriel)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.842105263"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/dc608d60dedb88cc3f297b93aa14d9a6> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Ave_verum_corpus,_KV_618_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/1f4becd44d41519ec4641028c08bdb2c> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Cantata_BWV_21_-_Ich_hatte_viel_Bek%C3%BCmmerniss_(Johann_Sebastian_Bach)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.794117647"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/2a9c8cf337265a954b9e585f9cf3581e> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Abendlied,_Op._69,_No._3_(Josef_Rheinberger)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.818181818"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/ee40cc2caebee6515d89b710f29b7857> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Stabat_Mater_(Anton%C3%ADn_Dvo%C5%99%C3%A1k)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.513513514"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/edeb01cb2034ca43e60b79bd93c6c7c3> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Symphony_No._2_in_C_Minor_(%27Resurrection%27)_-_choral_score_(Gustav_Mahler)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.863013699"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/3f041cbbb9eb89a3252bfe0efcd1206d> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.902439024"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/e7971e4c954a12f163f0be412fdc2cc8> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/cd403a031d09703b3760e725d7d2d592> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Gustav_Holst> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.864864865"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/577471e8f57413b2b0bf6f45911c09c5> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Franz_Liszt> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.918918919"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/e2b5a04e49f5f6e09b0080dde8b2ecd7> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.864864865"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/ae35ca984cb7b7d2011bc041d2cc16c1> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Symphony_No.2_(Mahler,_Gustav)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Ave_verum_corpus,_KV_618_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/3e912e86cbf3b62149d43ff6b445afce> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Symphony_No.2_(Mahler,_Gustav)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Cantata_BWV_21_-_Ich_hatte_viel_Bek%C3%BCmmerniss_(Johann_Sebastian_Bach)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.838235294"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/afdf3564cd98b1a4d22c6d12b12840bc> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Symphony_No.2_(Mahler,_Gustav)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Abendlied,_Op._69,_No._3_(Josef_Rheinberger)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.818181818"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/ec1d873ce2960bd464c754ddee47a801> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Symphony_No.2_(Mahler,_Gustav)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Stabat_Mater_(Anton%C3%ADn_Dvo%C5%99%C3%A1k)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.833333333"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/ed34a2c7ecab7da2bfd62855ad77afa8> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Symphony_No.2_(Mahler,_Gustav)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Symphony_No._2_in_C_Minor_(%27Resurrection%27)_-_choral_score_(Gustav_Mahler)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.643835616"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/d087e1ff66ba0d94f1f1bf99bbc93981> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Symphony_No.2_(Mahler,_Gustav)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.780487805"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/6a40a68a9cc7b2fb450ab439e4e65303> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Symphony_No.2_(Mahler,_Gustav)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.844444444"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/40ef21ffed40587fb2987d7016cc4137> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Symphony_No.2_(Mahler,_Gustav)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Gustav_Holst> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.833333333"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/4b797c5ee003468f6e2fab531a9056b> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Symphony_No.2_(Mahler,_Gustav)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Franz_Liszt> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/d024488496ef40700082c610e5bb041a> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Symphony_No.2_(Mahler,_Gustav)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.866666667"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/c05bc44e09abe6c47540405fc6aed025> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Ave_verum_corpus,_KV_618_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.673076923"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/af2aeb12c81bb889bb229b9d1d156936> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Cantata_BWV_21_-_Ich_hatte_viel_Bek%C3%BCmmerniss_(Johann_Sebastian_Bach)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.852941176"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/e066bfbbef67cf7b5d1526c86cafdb0f> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Abendlied,_Op._69,_No._3_(Josef_Rheinberger)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.788461538"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/1175931443e2e086f5858fc23f068ad5> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Stabat_Mater_(Anton%C3%ADn_Dvo%C5%99%C3%A1k)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.826923077"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/4741aed3ef1e80f2f7c3dcb990bbd3bc> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Symphony_No._2_in_C_Minor_(%27Resurrection%27)_-_choral_score_(Gustav_Mahler)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.780821918"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/65eb785c9254996fcd1f12f79ae88e5b> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.538461538"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/c03416ab40e604c81da945bcdc2d864f> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.826923077"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/451896c377de184b000d180baff36e8f> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Gustav_Holst> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.884615385"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/a33e3068f2b39980c285034b477a2cde> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Franz_Liszt> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.903846154"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/1be3aadc672281e2af5cc4d86346bfcc> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.865384615"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/988e23caaec49e7bc945bb9df49c536> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Grande_messe_des_morts_(Requiem),_H_75_(Berlioz,_Hector)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Ave_verum_corpus,_KV_618_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.857142857"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/d659802e1be8e559f4bbcc50ad69e05> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Grande_messe_des_morts_(Requiem),_H_75_(Berlioz,_Hector)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Cantata_BWV_21_-_Ich_hatte_viel_Bek%C3%BCmmerniss_(Johann_Sebastian_Bach)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.808823529"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/6abee5a06a97d9d21a90fd0e9f40133d> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Grande_messe_des_morts_(Requiem),_H_75_(Berlioz,_Hector)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Abendlied,_Op._69,_No._3_(Josef_Rheinberger)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.767857143"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/d9a9550fe3f3655216505b5718d6d8d4> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Grande_messe_des_morts_(Requiem),_H_75_(Berlioz,_Hector)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Stabat_Mater_(Anton%C3%ADn_Dvo%C5%99%C3%A1k)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.839285714"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/7f982367f337a45b5a806c7361b647b9> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Grande_messe_des_morts_(Requiem),_H_75_(Berlioz,_Hector)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Symphony_No._2_in_C_Minor_(%27Resurrection%27)_-_choral_score_(Gustav_Mahler)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.767123288"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/af5d23b1baffcbd63ceddaf0e0f3ddc9> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Grande_messe_des_morts_(Requiem),_H_75_(Berlioz,_Hector)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.803571429"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/82d4fec6203c9b9c284546deeb30927e> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Grande_messe_des_morts_(Requiem),_H_75_(Berlioz,_Hector)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.375"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/65be0b056e1936bfe6ac075cb485e432> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Grande_messe_des_morts_(Requiem),_H_75_(Berlioz,_Hector)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Gustav_Holst> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.875"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/13ca8f912372bf25ae096d5705acf454> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Grande_messe_des_morts_(Requiem),_H_75_(Berlioz,_Hector)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Franz_Liszt> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.875"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/ac5cfb69af21d7e9e305778db1fc6a85> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Grande_messe_des_morts_(Requiem),_H_75_(Berlioz,_Hector)> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.910714286"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/18947a04f344f0499e0e92364f0172ae> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Holst,_Gustav> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Ave_verum_corpus,_KV_618_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.82"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/c50471e6dacfc53a360aeeab165d8bd3> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Holst,_Gustav> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Cantata_BWV_21_-_Ich_hatte_viel_Bek%C3%BCmmerniss_(Johann_Sebastian_Bach)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.852941176"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/6e3e6d56d0447ff96ee0db71fe324f3d> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Holst,_Gustav> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Abendlied,_Op._69,_No._3_(Josef_Rheinberger)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.909090909"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/4ea7413c7c22909f3d169ed0475fe8d1> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Holst,_Gustav> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Stabat_Mater_(Anton%C3%ADn_Dvo%C5%99%C3%A1k)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.862068966"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/901d5fd6bc25c6c557037b888f9aceb7> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Holst,_Gustav> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Symphony_No._2_in_C_Minor_(%27Resurrection%27)_-_choral_score_(Gustav_Mahler)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.821917808"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/b70bdcf71e77a51454e88e8d9cb7a778> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Holst,_Gustav> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.829268293"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/895abb9dfcd01f5fc86e724fd536d8> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Holst,_Gustav> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.844444444"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/706c0ebdcd9b50872ac44cabd72f32f4> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Holst,_Gustav> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Gustav_Holst> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.772727273"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/db52729aa6683a2c8ffdae0d7f0a9519> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Holst,_Gustav> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Franz_Liszt> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.863636364"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/d672e67d5eb133628e349d58f938b799> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Holst,_Gustav> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.863636364"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/c0822fc746b380f10bb2a45ce32eb2b0> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Liszt,_Franz> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Ave_verum_corpus,_KV_618_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.86"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/db84d96c4c7df4ddfbcd47836be0dfbc> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Liszt,_Franz> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Cantata_BWV_21_-_Ich_hatte_viel_Bek%C3%BCmmerniss_(Johann_Sebastian_Bach)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.867647059"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/45512d780a3d4659c5b6722ef8d076ad> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Liszt,_Franz> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Abendlied,_Op._69,_No._3_(Josef_Rheinberger)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.909090909"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/8d79974223f78ef3cfe39f127e05c5e8> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Liszt,_Franz> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Stabat_Mater_(Anton%C3%ADn_Dvo%C5%99%C3%A1k)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.862068966"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/ea3e00f5b413ae3fce6fc680e7413912> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Liszt,_Franz> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Symphony_No._2_in_C_Minor_(%27Resurrection%27)_-_choral_score_(Gustav_Mahler)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.890410959"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/8a6127a5f7f51652519cdc9446d216b7> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Liszt,_Franz> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.902439024"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/5bba2805023f0fd3d3a1940e124c64ab> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Liszt,_Franz> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.822222222"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/1a6571737b0c02fcf0854b6f23cdaf61> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Liszt,_Franz> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Gustav_Holst> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.904761905"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/111ddda4dfb2a89617e6ac70524011d> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Liszt,_Franz> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Franz_Liszt> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.761904762"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/4a526d329abd46fe50bb7ada5f8ea654> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Liszt,_Franz> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.761904762"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/70220dd8364881acf31cef20fbd50724> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Saint-Sa%C3%ABns,_Camille> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Ave_verum_corpus,_KV_618_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.88"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/895e11c6302618be30491dd804e9ed91> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Saint-Sa%C3%ABns,_Camille> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Cantata_BWV_21_-_Ich_hatte_viel_Bek%C3%BCmmerniss_(Johann_Sebastian_Bach)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.852941176"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/a0c1b39ba29b879266a7424d99983934> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Saint-Sa%C3%ABns,_Camille> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Abendlied,_Op._69,_No._3_(Josef_Rheinberger)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.886363636"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/f8984eb0ccdac2f192362aa0ac959e3c> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Saint-Sa%C3%ABns,_Camille> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Stabat_Mater_(Anton%C3%ADn_Dvo%C5%99%C3%A1k)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.896551724"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/9637520560a83b48639c08f7a7513390> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Saint-Sa%C3%ABns,_Camille> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Symphony_No._2_in_C_Minor_(%27Resurrection%27)_-_choral_score_(Gustav_Mahler)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.835616438"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/67086e632d03885795064134f20a9b4a> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Saint-Sa%C3%ABns,_Camille> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.902439024"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/c31e8354338fb9bda56ea3d72f565040> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Saint-Sa%C3%ABns,_Camille> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Grande_messe_des_morts,_H_75_(Hector_Berlioz)> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.866666667"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/bf7355f303e2c838f124c41845f3252b> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Saint-Sa%C3%ABns,_Camille> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Gustav_Holst> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.862068966"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/353191e6ca23645693d4bf0e7761702c> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Saint-Sa%C3%ABns,_Camille> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Franz_Liszt> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.827586207"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://beta.twc.rpi.edu/id/cross-topix/alpha/b72f60a99297f6b6b2f82a71e7a15812> <http://purl.org/twc/vocab/cross-topix#comparable_1> <http://imslp.org/wiki/Category:Saint-Sa%C3%ABns,_Camille> ;
+	<http://purl.org/twc/vocab/cross-topix#comparable_2> <http://www3.cpdl.org/wiki/index.php/Camille_Saint-Sa%C3%ABns> ;
+	<http://purl.org/twc/vocab/cross-topix#similarity> "0.551724138"^^<http://www.w3.org/2001/XMLSchema#double> .
