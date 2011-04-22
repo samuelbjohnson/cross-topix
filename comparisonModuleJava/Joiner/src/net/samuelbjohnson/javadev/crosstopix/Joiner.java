@@ -182,7 +182,7 @@ public class Joiner {
 		
 		outputRepCon.add(subject, predicateImslp, imslpStatement.getSubject());
 		outputRepCon.add(subject, predicateCpdl, cpdlStatement.getSubject());
-		outputRepCon.add(subject, predicateDiff, valueFactory.createLiteral(distance.toPlainString()));
+		outputRepCon.add(subject, predicateDiff, valueFactory.createLiteral(distance.doubleValue()));
 		
 		outputRepCon.commit();
 		
