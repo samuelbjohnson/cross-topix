@@ -38,6 +38,7 @@ import org.openrdf.rio.RDFFormat;
 import org.openrdf.rio.RDFHandlerException;
 import org.openrdf.rio.RDFParseException;
 import org.openrdf.sail.memory.MemoryStore;
+import org.openrdf.sail.memory.model.MemURI;
 
 public class Joiner {
 	
@@ -47,7 +48,11 @@ public class Joiner {
 	private Repository cpdlRep;
 	private RepositoryConnection cpdlCon;
 	
-	PrintWriter outputWriter;
+	private PrintWriter outputWriter;
+	private Repository outputRep;
+	private RepositoryConnection outputRepCon;
+	
+	private String namespace;
 
 	/**
 	 * @param args
@@ -76,7 +81,16 @@ public class Joiner {
 		}
 		
 		Joiner j = new Joiner(file1, file2);
-		j.processJoin();
+		
+		if(args.length == 3) {
+			if (args[2].equals("-numbersOnly")) {
+				j.processJoin(false);
+				return;
+			}
+		}
+		
+		
+		j.processJoin(true);
 	}
 	
 	private static String getFileName() throws IOException {
@@ -87,9 +101,17 @@ public class Joiner {
 		File output = new File("output.ttl");
 		outputWriter = new PrintWriter(new FileWriter(output));
 		
-		outputWriter.println("@prefix dcterms: <http://purl.org/dc/terms/> .");
-		outputWriter.println("@prefix us:          <http://purl.org/twc/ontology/cross-topix.owl#> .");
-		outputWriter.println("");
+		outputRep = new SailRepository(new MemoryStore());
+		outputRep.initialize();
+		outputRepCon = outputRep.getConnection();
+		
+		//TODO add prefixes ? how?
+		
+		namespace = "http://purl.org/twc/vocab/cross-topix#";
+		
+		//outputWriter.println("@prefix dcterms: <http://purl.org/dc/terms/> .");
+		//outputWriter.println("@prefix us:          <http://purl.org/twc/ontology/cross-topix.owl#> .");
+		//outputWriter.println("");
 		
 		imslpRep = new SailRepository(new MemoryStore());
 		imslpRep.initialize();
@@ -103,7 +125,7 @@ public class Joiner {
 		cpdlCon.add(new File(cpdlFile), "", RDFFormat.TURTLE, new Resource[0]);
 	}
 
-	public void processJoin() throws RepositoryException, NoSuchAlgorithmException {
+	public void processJoin(boolean fullOutput) throws RepositoryException, NoSuchAlgorithmException {
 		RepositoryResult<Statement> imslpResults= imslpCon.getStatements(null, null, null, false, new Resource[0]);
 		int counter = 1;
 		while(imslpResults.hasNext()) {
@@ -113,7 +135,7 @@ public class Joiner {
 			RepositoryResult<Statement> cpdlResults = cpdlCon.getStatements(null, null, null, false, new Resource[0]);
 			while(cpdlResults.hasNext()) {
 				Statement cpdlStatement = cpdlResults.next();
-				join(imslpStatement, cpdlStatement);
+				join(imslpStatement, cpdlStatement, fullOutput);
 			}
 		}
 		
@@ -121,29 +143,38 @@ public class Joiner {
 		outputWriter.close();
 	}
 	
-	public boolean join(Statement imslpStatement, Statement cpdlStatement) throws NoSuchAlgorithmException {
+	public boolean join(Statement imslpStatement, Statement cpdlStatement, boolean fullOutput) throws NoSuchAlgorithmException {
 		int distance = StringUtils.getLevenshteinDistance(imslpStatement.getObject().stringValue(), cpdlStatement.getObject().stringValue());
 		
+		if (!fullOutput) {
+			outputWriter.print(imslpStatement.getObject().stringValue().length() + ",");
+			outputWriter.print(cpdlStatement.getObject().stringValue().length() + ",");
+			outputWriter.println(distance);
+			return true;
+		}
+		
 		MessageDigest md5 = MessageDigest.getInstance("MD5");
-		outputWriter.print("<http://todo.org/cross-topix/similarity/");
+		//outputWriter.print("<http://todo.org/cross-topix/similarity/");
 		md5.update((
 				imslpStatement.getObject().stringValue() +
 				cpdlStatement.getObject().stringValue() +
 				Integer.toString(distance)
 		).getBytes());
 		
-		outputWriter.print(md5.digest());
-		outputWriter.println(">");
+		Resource subject = new MemURI(this, namespace, new String(md5.digest()));
 		
-		outputWriter.print("\t" + "us:comparator_1 ");
-		outputWriter.println(imslpStatement.getObject().stringValue() + ";");
+		//outputWriter.print(md5.digest());
+		//outputWriter.println(">");
 		
-		outputWriter.print("\t" + "us:comparator_1 ");
-		outputWriter.println(cpdlStatement.getObject().stringValue() + ";");
+		//outputWriter.print("\t" + "us:comparator_1 ");
+		//outputWriter.println(imslpStatement.getObject().stringValue() + ";");
 		
-		outputWriter.println("\t" + "us:similarity " + Integer.toString(distance));
-		outputWriter.println(".");
-		outputWriter.println("");
+		//outputWriter.print("\t" + "us:comparator_1 ");
+		//outputWriter.println(cpdlStatement.getObject().stringValue() + ";");
+		
+		//outputWriter.println("\t" + "us:similarity " + Integer.toString(distance));
+		//outputWriter.println(".");
+		//outputWriter.println("");
 		
 		return true;
 	}
