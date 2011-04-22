@@ -22,21 +22,29 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
+import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 import org.apache.commons.lang3.StringUtils;
 import org.openrdf.model.Resource;
 import org.openrdf.model.Statement;
+import org.openrdf.model.URI;
+import org.openrdf.model.ValueFactory;
+import org.openrdf.model.impl.ValueFactoryImpl;
 import org.openrdf.repository.Repository;
 import org.openrdf.repository.RepositoryConnection;
 import org.openrdf.repository.RepositoryException;
 import org.openrdf.repository.RepositoryResult;
 import org.openrdf.repository.sail.SailRepository;
 import org.openrdf.rio.RDFFormat;
+import org.openrdf.rio.RDFHandler;
 import org.openrdf.rio.RDFHandlerException;
 import org.openrdf.rio.RDFParseException;
+import org.openrdf.rio.turtle.TurtleWriter;
 import org.openrdf.sail.memory.MemoryStore;
 import org.openrdf.sail.memory.model.MemURI;
 
@@ -52,7 +60,10 @@ public class Joiner {
 	private Repository outputRep;
 	private RepositoryConnection outputRepCon;
 	
-	private String namespace;
+	private String predicateNamespace;
+	private String subjectNamespace;
+	
+	private ValueFactory valueFactory;
 
 	/**
 	 * @param args
@@ -65,16 +76,11 @@ public class Joiner {
 		String file1, file2;
 		
 		if (args.length < 1) {
-			System.out.println("Please name the files you'd like to join.");
-			System.out.print("First File: ");
-			file1 = getFileName();
-			System.out.print("Second File: ");
-			file2 = getFileName();
+			System.err.println("No input files specified");
+			return;
 		} else if (args.length == 1) {
-			System.out.println("Please name the second file you'd like to join.");
-			System.out.print("Second File: ");
 			file1 = args[0];
-			file2 = getFileName();
+			file2 = args[0];
 		} else {
 			file1 = args[0];
 			file2 = args[1];
@@ -87,31 +93,26 @@ public class Joiner {
 				j.processJoin(false);
 				return;
 			}
+			if (args[2].equals("-normalizeForLength")) {
+				j = new LengthNormalizedJoiner(file1, file2);
+			}
 		}
 		
 		
 		j.processJoin(true);
 	}
 	
-	private static String getFileName() throws IOException {
-		return (new BufferedReader(new InputStreamReader(System.in))).readLine();
-	}
-	
-	public Joiner(String imslpFile, String cpdlFile) throws RepositoryException, RDFParseException, IOException, NoSuchAlgorithmException {
-		File output = new File("output.ttl");
-		outputWriter = new PrintWriter(new FileWriter(output));
+	public Joiner(String imslpFile, String cpdlFile) throws RepositoryException, RDFParseException, IOException, NoSuchAlgorithmException {		
+		outputWriter = new PrintWriter(new OutputStreamWriter(System.out));
 		
 		outputRep = new SailRepository(new MemoryStore());
 		outputRep.initialize();
 		outputRepCon = outputRep.getConnection();
 		
-		//TODO add prefixes ? how?
+		predicateNamespace = "http://purl.org/twc/vocab/cross-topix#";
+		subjectNamespace = "http://beta.twc.rpi.edu/id/cross-topix/alpha/";
 		
-		namespace = "http://purl.org/twc/vocab/cross-topix#";
-		
-		//outputWriter.println("@prefix dcterms: <http://purl.org/dc/terms/> .");
-		//outputWriter.println("@prefix us:          <http://purl.org/twc/ontology/cross-topix.owl#> .");
-		//outputWriter.println("");
+		valueFactory = ValueFactoryImpl.getInstance();
 		
 		imslpRep = new SailRepository(new MemoryStore());
 		imslpRep.initialize();
@@ -125,26 +126,38 @@ public class Joiner {
 		cpdlCon.add(new File(cpdlFile), "", RDFFormat.TURTLE, new Resource[0]);
 	}
 
-	public void processJoin(boolean fullOutput) throws RepositoryException, NoSuchAlgorithmException {
+	public void processJoin(boolean fullOutput) throws RepositoryException, NoSuchAlgorithmException, RDFHandlerException {
+		
 		RepositoryResult<Statement> imslpResults= imslpCon.getStatements(null, null, null, false, new Resource[0]);
 		int counter = 1;
+		RDFHandler handler = new TurtleWriter(outputWriter);
 		while(imslpResults.hasNext()) {
-			System.out.println("Working ismlp line: " + counter);
 			counter ++;
 			Statement imslpStatement = imslpResults.next();
 			RepositoryResult<Statement> cpdlResults = cpdlCon.getStatements(null, null, null, false, new Resource[0]);
 			while(cpdlResults.hasNext()) {
 				Statement cpdlStatement = cpdlResults.next();
 				join(imslpStatement, cpdlStatement, fullOutput);
+				
+				if (fullOutput) {
+					if (outputRepCon.size(new Resource[0]) >= 50000) {
+						outputRepCon.export(handler, new Resource[0]);
+						outputRepCon.clear(new Resource[0]);
+						outputRepCon.commit();
+					}
+				}
 			}
+		}
+		if (fullOutput) {
+			outputRepCon.export(handler);
 		}
 		
 		outputWriter.flush();
 		outputWriter.close();
 	}
 	
-	public boolean join(Statement imslpStatement, Statement cpdlStatement, boolean fullOutput) throws NoSuchAlgorithmException {
-		int distance = StringUtils.getLevenshteinDistance(imslpStatement.getObject().stringValue(), cpdlStatement.getObject().stringValue());
+	public boolean join(Statement imslpStatement, Statement cpdlStatement, boolean fullOutput) throws NoSuchAlgorithmException, RepositoryException {
+		BigDecimal distance = computeDistance(imslpStatement.getObject().stringValue(), cpdlStatement.getObject().stringValue());
 		
 		if (!fullOutput) {
 			outputWriter.print(imslpStatement.getObject().stringValue().length() + ",");
@@ -154,29 +167,30 @@ public class Joiner {
 		}
 		
 		MessageDigest md5 = MessageDigest.getInstance("MD5");
-		//outputWriter.print("<http://todo.org/cross-topix/similarity/");
 		md5.update((
 				imslpStatement.getObject().stringValue() +
 				cpdlStatement.getObject().stringValue() +
-				Integer.toString(distance)
+				distance.toPlainString()
 		).getBytes());
+		BigInteger hashInt = new BigInteger(1, md5.digest());
+		String md5Sum = hashInt.toString(16);
 		
-		Resource subject = new MemURI(this, namespace, new String(md5.digest()));
+		Resource subject = valueFactory.createURI(subjectNamespace, md5Sum);
+		URI predicateImslp = valueFactory.createURI(predicateNamespace, "comparable_1");
+		URI predicateCpdl = valueFactory.createURI(predicateNamespace, "comparable_2");
+		URI predicateDiff = valueFactory.createURI(predicateNamespace, "similarity");
 		
-		//outputWriter.print(md5.digest());
-		//outputWriter.println(">");
+		outputRepCon.add(subject, predicateImslp, imslpStatement.getSubject());
+		outputRepCon.add(subject, predicateCpdl, cpdlStatement.getSubject());
+		outputRepCon.add(subject, predicateDiff, valueFactory.createLiteral(distance.toPlainString()));
 		
-		//outputWriter.print("\t" + "us:comparator_1 ");
-		//outputWriter.println(imslpStatement.getObject().stringValue() + ";");
-		
-		//outputWriter.print("\t" + "us:comparator_1 ");
-		//outputWriter.println(cpdlStatement.getObject().stringValue() + ";");
-		
-		//outputWriter.println("\t" + "us:similarity " + Integer.toString(distance));
-		//outputWriter.println(".");
-		//outputWriter.println("");
+		outputRepCon.commit();
 		
 		return true;
+	}
+	
+	protected BigDecimal computeDistance(String string1, String string2) {
+		return new BigDecimal(StringUtils.getLevenshteinDistance(string1, string2));
 	}
 
 }
