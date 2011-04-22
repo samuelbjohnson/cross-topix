@@ -1,0 +1,9 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix us:          <http://purl.org/twc/ontology/cross-topix.owl#> .
+
+# replacing """ with " makes ARC2 happy.
+<http://todo.org/cross-topix/similarity/f3d6a5>
+	us:comparator_1 "Ave verum corpus, \"BLAHTEST\"K.618 (Mozart, Wolfgang Amadeus)";
+	us:comparator_1 "Ave verum corpus, KV 618 (Wolfgang Amadeus Mozart)";
+	us:similarity 17
+.
