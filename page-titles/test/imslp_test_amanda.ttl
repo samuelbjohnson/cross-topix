@@ -1,0 +1,22 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+<http://imslp.org/wiki/Ave_verum_corpus,_K.618_(Mozart,_Wolfgang_Amadeus)>
+   dcterms:title """Ave verum corpus, K.618 (Mozart, Wolfgang Amadeus)""" .
+<http://imslp.org/wiki/Ich_hatte_viel_Bek%C3%BCmmernis,_BWV_21_(Bach,_Johann_Sebastian)>
+   dcterms:title """Ich hatte viel Bekümmernis, BWV 21 (Bach, Johann Sebastian)""" .
+<http://imslp.org/wiki/Abendlied_(Rheinberger,_Josef_Gabriel)>
+   dcterms:title """Abendlied (Rheinberger, Josef Gabriel)""" .
+<http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)>
+   dcterms:title """Stabat Mater, Op.58 (Dvořák, Antonín)""" .
+<http://imslp.org/wiki/Symphony_No.2_(Mahler,_Gustav)>
+   dcterms:title """Symphony No.2 (Mahler, Gustav)""" .
+<http://imslp.org/wiki/Requiem_in_D_minor,_K.626_(Mozart,_Wolfgang_Amadeus)>
+   dcterms:title """Requiem in D minor, K.626 (Mozart, Wolfgang Amadeus)""" .
+<http://imslp.org/wiki/Grande_messe_des_morts_(Requiem),_H_75_(Berlioz,_Hector)>
+   dcterms:title """Grande messe des morts (Requiem), H 75 (Berlioz, Hector)""" .  
+<http://imslp.org/wiki/Category:Holst,_Gustav>
+   dcterms:title """Category:Holst, Gustav""".
+<http://imslp.org/wiki/Category:Liszt,_Franz>
+   dcterms:title """Category:Liszt, Franz""".
+<http://imslp.org/wiki/Category:Saint-Sa%C3%ABns,_Camille>
+   dcterms:title """Category:Saint-Sa�ns, Camille""".
+
