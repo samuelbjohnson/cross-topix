@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <!-- query time: 0.0683 sec -->
+    <variable name="comparison"/>
+    <variable name="page_1"/>
+    <variable name="page_2"/>
+    <variable name="sim"/>
+    <variable name="title_1"/>
+    <variable name="title_2"/>
+  </head>
+  <results>
+    <result>
+      <binding name="comparison">
+        <uri>http://beta.twc.rpi.edu/id/cross-topix/alpha/3f041cbbb9eb89a3252bfe0efcd1206d</uri>
+      </binding>
+      <binding name="page_1">
+        <uri>http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)</uri>
+      </binding>
+      <binding name="page_2">
+        <uri>http://www3.cpdl.org/wiki/index.php/Requiem,_KV_626_(Wolfgang_Amadeus_Mozart)</uri>
+      </binding>
+      <binding name="sim">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#double">0.902439024</literal>
+      </binding>
+      <binding name="title_1">
+        <literal>Stabat Mater, Op.58 (Dvořák, Antonín)</literal>
+      </binding>
+      <binding name="title_2">
+        <literal>Requiem, KV 626 (Wolfgang Amadeus Mozart)</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>
