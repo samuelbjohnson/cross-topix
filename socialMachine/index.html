@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <head>
-	<title>Cross-Topix "Social Machine" Hello World</title>
+	<title>Cross-Topix "Social Machine"</title>
 	
 	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.6/dojo/resources/dojo.css" />
    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.6/dijit/themes/tundra/tundra.css" />
@@ -16,20 +16,29 @@
 		
 	</script>
 	
+	<script type="text/javascript" src="socialMachine.js"></script>
+	
 	<script type="text/javascript">
 		
 		
 		dojo.addOnLoad(function() {
+			var machine;
 			
+			machine = new net.samuelbjohnson.jsdev.crosstopix.SocialMachine(
+				dojo.byId("machine")
+			);
 		});
+		
 	</script>
 	
 </head>
 <body class="tundra">
 <div id="main">
-	Social Machine Hello World
+	Eventually, we'll put something here telling you what to do. But for now, you're on your own.
 </div>
-	
+<div id="machine">
+
+</div>
 	
 <div id="title">
 	Cross-Topix Social Machine

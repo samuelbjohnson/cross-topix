@@ -1,4 +1,38 @@
 body {
+	
+}
+
+div#background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -10;
+	margin: 25px;
+	min-width: 807px;
+	min-height: 328px;
 	background-image: url('../doc/splash-screen.png');
 	background-repeat: no-repeat;
+}
+
+div#main {
+	position: absolute;
+	top: 340px;
+	margin: 10px;
+}
+
+div#title {
+	position: absolute;
+	margin: 0;
+	margin-left: 10px;
+	font-size: 3.2em;
+	font-family: "Times New Roman", Times, serif;
+}
+
+div#machine {
+	position: absolute;
+	width: 500px;
+	height: 250px;
+	top: 75px;
+	left: 200px;
+	border: 1px dotted red;
 }
