@@ -1,0 +1,107 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix pmlb:       <http://inference-web.org/2.b/pml-provenance.owl#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix conv:    <http://purl.org/twc/vocab/conversion/> .
+
+<http://tw.rpi.edu/instances/TimLebo> foaf:holdsAccount <http://tw.rpi.edu/web/inside/machine/lebot_macbook#lebot> .
+<http://tw.rpi.edu/web/inside/machine/lebot_macbook#lebot>
+   a foaf:OnlineAccount;
+   foaf:accountName "lebot";
+   dcterms:isPartOf <http://tw.rpi.edu/web/inside/machine/lebot_macbook#>;
+   sioc:account_of  <http://tw.rpi.edu/instances/TimLebo>;
+.
+
+<first.rq.xml>
+   a pmlp:Information;
+   nfo:hasHash <md5_13b365567ad5ef2d010a78eca61afe1b_time_1303787652>;
+.
+<md5_13b365567ad5ef2d010a78eca61afe1b_time_1303787652>
+   a nfo:FileHash; 
+   dcterms:date      "2011-04-25T23:14:12-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "13b365567ad5ef2d010a78eca61afe1b";
+.
+
+<first.rq.xml>
+   a pmlp:Information;
+   pmlp:hasModificationDateTime "2011-04-25T23:14:12-04:00"^^xsd:dateTime;
+   pmlp:hasReferenceSourceUsage <sourceusage_6b347f69-4d08-45e8-b2c2-c30a8bc9d67e>;
+.
+
+<sourceusage_6b347f69-4d08-45e8-b2c2-c30a8bc9d67e>
+   a pmlp:SourceUsage;
+   pmlp:hasSource        <http://leo.tw.rpi.edu:81/endpoint.php?query=prefix%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0Aprefix%20cpdl%3A%20%20%20%20%3Chttp%3A%2F%2Fwww3.cpdl.org%2Fwiki%2Findex.php%2F%3E%0Aprefix%20imslp%3A%20%20%20%3Chttp%3A%2F%2Fimslp.org%2Fwiki%2F%3E%0Aprefix%20xt%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Ftwc%2Fvocab%2Fcross-topix%23%3E%0A%0ASELECT%20%3Fcomparison%20%3Fpage_1%20%3Fpage_2%20%3Fsim%20%3Ftitle_1%20%3Ftitle_2%0A%0AWHERE%20%7B%0A%20GRAPH%20%3Chttp%3A%2F%2Fleo.tw.rpi.edu%2Fsource%2Forange-joiner%2Fdataset%2Ftitle-similarities%2Fversion%2F2011-Apr-20%3E%20%7B%0A%20%20%20%20%3Fcomparison%20xt%3Acomparable_1%20%3Fpage_1%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20xt%3Acomparable_2%20%3Fpage_2%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20xt%3Asimilarity%20%20%20%3Fsim%20.%0A%20%7D%0A%20GRAPH%20%3Chttp%3A%2F%2Fleo.tw.rpi.edu%2Fsource%2Forange-amanda%2Fdataset%2Fground-truth%2Fversion%2F2011-Apr-19%3E%20%7B%0A%20%20%20%20%3Fpage_1%20dcterms%3Atitle%20%3Ftitle_1%20.%0A%20%7D%0A%20GRAPH%20%3Chttp%3A%2F%2Fleo.tw.rpi.edu%2Fsource%2Forange-amanda%2Fdataset%2Fground-truth%2Fversion%2F2011-Apr-19%3E%20%7B%0A%20%20%20%20%3Fpage_2%20dcterms%3Atitle%20%3Ftitle_2%20.%0A%20%7D%0A%7D%20ORDER%20BY%20DESC%28%3Fsim%29%20LIMIT%201%20OFFSET%200%0A&output=xml>;
+   pmlp:hasUsageDateTime "2011-04-25T23:14:12-04:00"^^xsd:dateTime;
+.
+
+<http://leo.tw.rpi.edu:81/endpoint.php?query=prefix%20dcterms%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0Aprefix%20cpdl%3A%20%20%20%20%3Chttp%3A%2F%2Fwww3.cpdl.org%2Fwiki%2Findex.php%2F%3E%0Aprefix%20imslp%3A%20%20%20%3Chttp%3A%2F%2Fimslp.org%2Fwiki%2F%3E%0Aprefix%20xt%3A%20%20%20%20%20%20%3Chttp%3A%2F%2Fpurl.org%2Ftwc%2Fvocab%2Fcross-topix%23%3E%0A%0ASELECT%20%3Fcomparison%20%3Fpage_1%20%3Fpage_2%20%3Fsim%20%3Ftitle_1%20%3Ftitle_2%0A%0AWHERE%20%7B%0A%20GRAPH%20%3Chttp%3A%2F%2Fleo.tw.rpi.edu%2Fsource%2Forange-joiner%2Fdataset%2Ftitle-similarities%2Fversion%2F2011-Apr-20%3E%20%7B%0A%20%20%20%20%3Fcomparison%20xt%3Acomparable_1%20%3Fpage_1%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20xt%3Acomparable_2%20%3Fpage_2%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20xt%3Asimilarity%20%20%20%3Fsim%20.%0A%20%7D%0A%20GRAPH%20%3Chttp%3A%2F%2Fleo.tw.rpi.edu%2Fsource%2Forange-amanda%2Fdataset%2Fground-truth%2Fversion%2F2011-Apr-19%3E%20%7B%0A%20%20%20%20%3Fpage_1%20dcterms%3Atitle%20%3Ftitle_1%20.%0A%20%7D%0A%20GRAPH%20%3Chttp%3A%2F%2Fleo.tw.rpi.edu%2Fsource%2Forange-amanda%2Fdataset%2Fground-truth%2Fversion%2F2011-Apr-19%3E%20%7B%0A%20%20%20%20%3Fpage_2%20dcterms%3Atitle%20%3Ftitle_2%20.%0A%20%7D%0A%7D%20ORDER%20BY%20DESC%28%3Fsim%29%20LIMIT%201%20OFFSET%200%0A&output=xml>
+   a pmlj:Query, pmlp:Source;
+   pmlj:isFromEngine <http://leo.tw.rpi.edu:81/endpoint.php>;
+   pmlj:hasAnswer    <nodeset_6b347f69-4d08-45e8-b2c2-c30a8bc9d67e>;
+.
+
+<http://leo.tw.rpi.edu:81/endpoint.php>
+   a pmlp:InferenceEngine, pmlp:WebService;
+.
+
+<nodeset_6b347f69-4d08-45e8-b2c2-c30a8bc9d67e>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <first.rq.xml>;
+   pmlj:isConsequentOf <inferenceStep__6b347f69-4d08-45e8-b2c2-c30a8bc9d67e>;
+.
+<inferenceStep_6b347f69-4d08-45e8-b2c2-c30a8bc9d67e>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   pmlj:hasAntecedentList (
+      [ a pmlj:NodeSet; pmlp:hasConclusion <query_6b347f69-4d08-45e8-b2c2-c30a8bc9d67e> ]
+      [ a pmlj:NodeSet; pmlp:hasConclusion [
+            a pmlb:AttributeValuePair;
+            pmlb:attribute "output"; pmlb:value "xml"
+          ]
+      ]
+   );
+   oboro:has_agent          <http://tw.rpi.edu/web/inside/machine/lebot_macbook#lebot>;
+   hartigprov:involvedActor <http://tw.rpi.edu/web/inside/machine/lebot_macbook#lebot>;
+.
+<wasControlled__6b347f69-4d08-45e8-b2c2-c30a8bc9d67e>
+   a oprov:WasControlledBy;
+   oprov:cause  <http://tw.rpi.edu/web/inside/machine/lebot_macbook#lebot>;
+   oprov:effect <inferenceStep_6b347f69-4d08-45e8-b2c2-c30a8bc9d67e>;
+   oprov:endTime ""^^xsd:dateTime;
+.
+
+<query_6b347f69-4d08-45e8-b2c2-c30a8bc9d67e>
+   a pmlb:AttributeValuePair;
+   pmlb:attribute "query";
+   pmlb:value     """prefix dcterms: <http://purl.org/dc/terms/>
+prefix cpdl:    <http://www3.cpdl.org/wiki/index.php/>
+prefix imslp:   <http://imslp.org/wiki/>
+prefix xt:      <http://purl.org/twc/vocab/cross-topix#>
+
+SELECT ?comparison ?page_1 ?page_2 ?sim ?title_1 ?title_2
+
+WHERE {
+ GRAPH <http://leo.tw.rpi.edu/source/orange-joiner/dataset/title-similarities/version/2011-Apr-20> {
+    ?comparison xt:comparable_1 ?page_1;
+                            xt:comparable_2 ?page_2;
+                            xt:similarity   ?sim .
+ }
+ GRAPH <http://leo.tw.rpi.edu/source/orange-amanda/dataset/ground-truth/version/2011-Apr-19> {
+    ?page_1 dcterms:title ?title_1 .
+ }
+ GRAPH <http://leo.tw.rpi.edu/source/orange-amanda/dataset/ground-truth/version/2011-Apr-19> {
+    ?page_2 dcterms:title ?title_2 .
+ }
+} ORDER BY DESC(?sim) LIMIT 1 OFFSET 0""";
+.

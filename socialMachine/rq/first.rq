@@ -1,0 +1,20 @@
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix cpdl:    <http://www3.cpdl.org/wiki/index.php/>
+prefix imslp:   <http://imslp.org/wiki/>
+prefix xt:      <http://purl.org/twc/vocab/cross-topix#>
+
+SELECT ?comparison ?page_1 ?page_2 ?sim ?title_1 ?title_2
+
+WHERE {
+ GRAPH <http://leo.tw.rpi.edu/source/orange-joiner/dataset/title-similarities/version/2011-Apr-20> {
+    ?comparison xt:comparable_1 ?page_1;
+                            xt:comparable_2 ?page_2;
+                            xt:similarity   ?sim .
+ }
+ GRAPH <http://leo.tw.rpi.edu/source/orange-amanda/dataset/ground-truth/version/2011-Apr-19> {
+    ?page_1 dcterms:title ?title_1 .
+ }
+ GRAPH <http://leo.tw.rpi.edu/source/orange-amanda/dataset/ground-truth/version/2011-Apr-19> {
+    ?page_2 dcterms:title ?title_2 .
+ }
+} ORDER BY DESC(?sim) LIMIT 1 OFFSET 0
