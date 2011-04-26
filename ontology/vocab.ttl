@@ -15,6 +15,7 @@
 
 xt:comparable_1
    a owl:ObjectProperty;
+   rdfs:label "comparable 1";
    rdfs:comment "The first thing that is being compared.";
    rdfs:domain xt:Comparison;
    rdfs:subPropertyOf xt:comparable;
@@ -22,6 +23,7 @@ xt:comparable_1
 
 xt:comparable_2
    a owl:ObjectProperty;
+   rdfs:label "comparable 2";
    rdfs:comment "The second thing that is being compared.";
    rdfs:domain xt:Comparison;
    rdfs:subPropertyOf xt:comparable;
@@ -29,6 +31,7 @@ xt:comparable_2
 
 xt:similarity
    a owl:DatatypeProperty;
+   rdfs:label "similarity";
    rdfs:comment "A quantity characterizing the similarity of the resources cited.";
    rdfs:domain xt:Comparison;
    rdfs:range xsd:decimal;
@@ -41,16 +44,58 @@ xt:Comparison
    rdfs:subClassOf [
       a owl:Restriction;
       owl:onProperty xt:comparable_1;
-      owl:maxCardinality 1;
+      owl:cardinality 1;
    ];
    rdfs:subClassOf [
       a owl:Restriction;
       owl:onProperty xt:comparable_2;
-      owl:maxCardinality 1;
+      owl:cardinality 1;
    ];
    rdfs:subClassOf [
       a owl:Restriction;
       owl:onProperty xt:similarity;
-      owl:maxCardinality 1;
+      owl:cardinality 1;
    ];
+.
+
+xt:ComparisonReview
+   a owl:Class;
+   rdfs:label "ComparisonReview";
+   rdfs:comment "An acceptance or rejection of a xt:Comparison.";
+   rdfs:subClassOf [
+      a owl:Restriction;
+      owl:onProperty xt:user_name;
+      owl:cardinality 1;
+   ];
+   rdfs:subClassOf [
+      a owl:Restriction;
+      owl:onProperty xt:comparison;
+      owl:cardinality 1;
+   ];
+   rdfs:subClassOf [
+      a owl:Restriction;
+      owl:onProperty xt:accepted;
+      owl:cardinality 1;
+   ];
+.
+
+xt:user_name
+   a owl:DatatypeProperty;
+   rdfs:label "user name";
+   rdfs:comment "A string citing a user-entered name for themselves.";
+   rdfs:range rdfs:Literal;
+.
+
+xt:comparison
+   a owl:DatatypeProperty;
+   rdfs:label "comparison";
+   rdfs:comment "The Comparison that the user accepts or rejects.";
+   rdfs:range xt:Comparison;
+.
+
+xt:accepted
+   a owl:DatatypeProperty;
+   rdfs:label "accepted";
+   rdfs:comment "Whether the user accpets or rejects the Comparison.";
+   rdfs:range xsd:boolean;
 .
