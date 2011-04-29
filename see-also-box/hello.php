@@ -1,6 +1,6 @@
-<?
-$wiki_page = $_GET['page'];,
-$ENDPOINT    = 'http://leo.tw.rpi.edu:81/endpoint.php; 
+<?php
+$wiki_page = $_GET['page'];
+$ENDPOINT = 'http://leo.tw.rpi.edu:81/endpoint.php'; 
 
 class crossTopix{
 
@@ -22,9 +22,8 @@ static function request_query($query, $endpoint) {
 }
 
 static funtion getSuggestions($wiki_page, $ENDPOINT) {
-
  $query = <<<______________________________
-   PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
 prefix xt:  	<http://purl.org/twc/vocab/cross-topix#>
 
 SELECT ?other ?title ?sim ?user ?accepted
@@ -54,10 +53,10 @@ ______________________________;
    
    if( isset($result['results']['bindings']) ) {
       foreach($result['results']['bindings'] as $binding){
-		echo '<p> <a href= '.$binding['title']['value'] >'.$binding['other']['value'].'</a> </p>';
+		echo '<p> <a href= ' . $binding['title']['value'] . '>' . $binding['other']['value'] . '</a> </p>';
 		
 		$val = $binding['sim']['value'];
-		echo  '<p> Machine value = ' . $val . '</p>;
+		echo  '<p> Machine value = ' . $val . '</p>';
 		
 		echo '<center> <p>';
 		if ($val < 0.3) {
