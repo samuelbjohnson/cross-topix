@@ -29,10 +29,34 @@ div#title {
 }
 
 div#machine {
+	background-color: white;
 	position: absolute;
 	width: 500px;
 	height: 250px;
 	top: 75px;
 	left: 200px;
 	border: 1px dotted red;
+}
+
+#machine div.label {
+	margin: 2px;
+	border: 1px dotted red;
+	padding: 2px;
+	width: 80%;
+}
+
+#machine div.option {
+	float: left;
+	margin: 2px;
+	border: 1px dotted red;
+	padding: 2px;
+	width: 20%;
+}
+
+#machine div.choice {
+	margin: 2px;
+	border: 1px dotted red;
+	padding: 2px;
+	width: 80%;
+	clear: both;
 }
