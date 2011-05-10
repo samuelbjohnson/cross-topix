@@ -17,10 +17,10 @@ dojo.declare("net.samuelbjohnson.jsdev.crosstopix.SocialMachine", null, {
 	buildHtml: function() {
 		this.labelDiv = dojo.create("div", {class: "label"}, this.container);
 		this.labelDiv.innerHTML = "Are these two pages about the same thing?";
+		this.currentOptionDiv = dojo.create("div", {class: "currentOption"}, this.container);
+		this.choiceDiv = dojo.create("div", {class: "choice"}, this.currentOptionDiv);
+		this.optionDiv = dojo.create("div", {}, this.currentOptionDiv);
 		
-		this.optionDiv = dojo.create("div", {}, this.container);
-		
-		this.choiceDiv = dojo.create("div", {class: "choice"}, this.container);
 		this.yesButton = new dijit.form.Button({
 			label: "Yes",
 			onClick: dojo.hitch(this, this.processYes)
@@ -29,6 +29,8 @@ dojo.declare("net.samuelbjohnson.jsdev.crosstopix.SocialMachine", null, {
 			label: "No",
 			onClick: dojo.hitch(this, this.processNo)
 		}, dojo.create("div", {}, this.choiceDiv));
+		
+		this.previousOptionsDiv = dojo.create("div", {class: "previousOptions"}, this.container);
 	},
 	
 	obtainUsername: function() {

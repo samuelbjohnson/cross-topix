@@ -48,25 +48,29 @@ div#machine {
 	
 }
 
+div.currentOption {
+	border-bottom: 1px solid black;
+}
+
 #machine div.label {
 	margin: 2px;
 	/*border: 1px dotted red;*/
 	padding: 2px;
 	width: 80%;
+	font-size: 1.7em;
 }
 
 #machine div.option {
+	margin: 2px;
+	/*border: 1px dotted red;*/
+	padding: 2px;
+	vertical-align: center;
+	
+}
+
+#machine div.choice {
 	float: left;
 	margin: 2px;
 	/*border: 1px dotted red;*/
 	padding: 2px;
-	width: 225px;
-}
-
-#machine div.choice {
-	margin: 2px;
-	/*border: 1px dotted red;*/
-	padding: 2px;
-	width: 80%;
-	clear: both;
 }
