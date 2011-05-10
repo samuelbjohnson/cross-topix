@@ -67,10 +67,15 @@ WHERE { \
 		response parameter should be a string representation of a boolean
 	*/
 	constructPostResponseQuery: function(/*string*/response) {
-		var dateString, comparison, outputString;
-		dateString = dojo.date.locale.format(new Date(), {
+		var now, dateString, timestampString, comparison, outputString;
+		now = new Date();
+		dateString = dojo.date.locale.format(now, {
 			selector: "date",
-			datePattern: "yyyy'_'MM'_'dd'T'HH'_'mm'_'ss'_'SSS"
+			datePattern: "yyyy'_'MM'_'dd'T'HH'_'mm'_'ss"
+		});
+		timestampString = dojo.date.locale.format(now, {
+			selector: "date",
+			datePattern: "yyyy'-'MM'-'dd'T'HH':'mm':'ssZ"
 		});
 		
 		comparison = this.data["results"]["bindings"][0]["comparison"]["value"];
@@ -79,6 +84,7 @@ WHERE { \
 			"output=json&key=&" + 
 			"query=" + "prefix xsd: <http://www.w3.org/2001/XMLSchema#> \
 prefix xt:  <http://purl.org/twc/vocab/cross-topix#> \
+prefix dcterms: <http://purl.org/dc/terms/> \
 prefix vote:  <http://leo.tw.rpi.edu/source/orange/dataset/crowd-verifications/version/2011-Apr-25/typed/vote/> \
  \
 INSERT INTO <http://leo.tw.rpi.edu/source/orange/dataset/crowd-verifications/version/2011-Apr-25> { \
@@ -89,6 +95,7 @@ INSERT INTO <http://leo.tw.rpi.edu/source/orange/dataset/crowd-verifications/ver
     	+ comparison + ">; \
  	xt:user_name  \"" + this.userName + "\"; \
  	xt:accepted   " + response + "; \
+ 	dcterms:created \""  + timestampString + "\"^^xsd:dateTime ; \
   . \
   }";
   

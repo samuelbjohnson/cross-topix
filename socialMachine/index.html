@@ -22,7 +22,7 @@
 		
 		
 		dojo.addOnLoad(function() {
-			var machine;
+			var machine, userManager;
 			
 			machine = new net.samuelbjohnson.jsdev.crosstopix.SocialMachine(
 				dojo.byId("machine")
@@ -36,12 +36,17 @@
 <div id="main">
 	Eventually, we'll put something here telling you what to do. But for now, you're on your own.
 </div>
-<div id="machine">
-
+<div id="machineBackground">
+	<div id="machine">
+	</div>
 </div>
 	
 <div id="title">
-	Cross-Topix Social Machine
+	<div class="title">
+		Cross-Topix Social Machine
+	</div>
+	<div class="identityBox">
+	</div>
 </div>
 <div id="background">
 </div>
