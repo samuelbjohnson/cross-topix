@@ -1,5 +1,4 @@
 <?php
-//$wiki_page = 'http://imslp.org/wiki/Stabat_Mater,_Op.58_(Dvo%C5%99%C3%A1k,_Anton%C3%ADn)'; 
 $wiki_page = $_GET['page'];
 $ENDPOINT = 'http://leo.tw.rpi.edu:81/endpoint.php'; 
 
@@ -30,16 +29,17 @@ class crossTopix {
    }
 
 static function getSuggestions($wiki_page, $ENDPOINT, $wiki) {
-$query = <<<______________________________
+$query1 = <<<______________________________
 PREFIX dcterms: <http://purl.org/dc/terms/>
 prefix xt:  	<http://purl.org/twc/vocab/cross-topix#>
-SELECT DISTINCT ?other ?title ?sim ?user ?accepted
+SELECT DISTINCT ?other ?title ?sim ?user ?date
 WHERE {
   GRAPH <http://leo.tw.rpi.edu/source/orange/dataset/crowd-verifications/version/2011-Apr-25> {
 	?vote a xt:ComparisonReview;
   	xt:comparison ?comparison;
   	xt:user_name  ?user;
-  	xt:accepted   ?accepted;
+  	xt:accepted   true;
+        dcterms:created ?date;
 	.
   }
   GRAPH <http://leo.tw.rpi.edu/source/orange-joiner/dataset/title-similarities/version/2011-Apr-20> {
@@ -50,20 +50,46 @@ WHERE {
   GRAPH <http://leo.tw.rpi.edu/source/orange-amanda/dataset/ground-truth/version/2011-Apr-19> {
 	?other dcterms:title ?title .
   }
-} ORDER BY ?sim ?accepted ?user ?other ?title LIMIT 10
+} ORDER BY ?sim ?date ?user ?other ?title LIMIT 10
 ______________________________;
 
-   $query = crossTopix::bind_variable($query,'?:page',$wiki_page);
+$query2 = <<<______________________________
+PREFIX dcterms: <http://purl.org/dc/terms/>
+prefix xt:  	<http://purl.org/twc/vocab/cross-topix#>
+SELECT DISTINCT ?other ?title ?sim ?user
+WHERE {
+  GRAPH <http://leo.tw.rpi.edu/source/orange/dataset/crowd-verifications/version/2011-Apr-25> {
+	?vote a xt:ComparisonReview;
+  	xt:comparison ?comparison;
+  	xt:user_name  ?user;
+  	xt:accepted   true;
+	.
+  }
+  GRAPH <http://leo.tw.rpi.edu/source/orange-joiner/dataset/title-similarities/version/2011-Apr-20> {
+	?comparison xt:comparable_1 ?other;
+            	xt:comparable_2 ?:page;
+            	xt:similarity   ?sim .
+  }
+  GRAPH <http://leo.tw.rpi.edu/source/orange-amanda/dataset/ground-truth/version/2011-Apr-19> {
+	?other dcterms:title ?title .
+  }
+} ORDER BY ?sim ?user ?other ?title LIMIT 10
+______________________________;
+
+   if ($wiki == "0")
+      $query = crossTopix::bind_variable($query1,'?:page',$wiki_page);
+  else
+      $query = crossTopix::bind_variable($query2,'?:page',$wiki_page);
 
    $result = crossTopix::request_query($query, $ENDPOINT);
-   echo '<center> <p>';
-   echo '<table border="0">';
-  
+    
    if( isset($result['results']['bindings']) ) {
       foreach($result['results']['bindings'] as $binding){
          $val = $binding['sim']['value'];
-         
-	echo '<tr>';
+	 $date = $binding['date']['value'];
+	 if ($prev == $binding['title']['value'])
+	 	continue;
+	 $prev = $binding['title']['value'];
 
 	if ($wiki == "0") // if imslp
 		echo '<td rowspan="2" align="center"> <img border="0" src="link-imslp-to-cpdl.png" height="70" /></td>';
@@ -73,27 +99,25 @@ ______________________________;
 	echo '<td rowspan="2"> <a href="' . $binding['other']['value'] . '">' . $binding['title']['value'] . '</a> </td>';
 	echo '<td align="center">';
         if ($val < 0.8)
-            echo '<img border="0" src="/full-star.png" width="30" height="30" />';
+            echo '<img border="0" src="/full-star.png" width="30" height="30" alt="'.$date.'"/>';
         else
-            echo '<img border="0" src="/empty-star.png" width="30" height="30" />';
+            echo '<img border="0" src="/empty-star.png" width="30" height="30" alt="'.$date.'"/>';
         if ($val < 0.65)
-            echo '<img border="0" src="/full-star.png" width="30" height="30" />';
+            echo '<img border="0" src="/full-star.png" width="30" height="30" alt="'.$date.'"/>';
         else
-            echo '<img border="0" src="/empty-star.png" width="30" height="30" />';
+            echo '<img border="0" src="/empty-star.png" width="30" height="30" alt="'.$date.'"/>';
         if ($val < 0.3)
-            echo '<img border="0" src="/full-star.png" width="30" height="30" />';
+            echo '<img border="0" src="/full-star.png" width="30" height="30" alt="'.$date.'"/>';
         else
-            echo '<img border="0" src="/empty-star.png" width="30" height="30" />';
+            echo '<img border="0" src="/empty-star.png" width="30" height="30" alt="'.$date.'"/>';
         echo '</td>';
 	echo '</tr>';
 	echo '<tr>';
-	echo '<td align="center">Value: ' . $val;
+	echo '<td align="center">Value: ' . round($val,2);
 	echo '</td>';
 	echo '</tr>';
       }
    }
-   echo '</table>';
-   echo '</center>';
    return;
 } // end of getSuggestions
 
@@ -101,21 +125,37 @@ ______________________________;
 
 
 echo '<html>';
+echo '<head>';
+
+echo '</head>';
 echo '<body>';
-echo '<h1>We think you might also be interested in these other pages on ';
+echo '<center>';
+echo '<table border="3" rules="NONE">';         
+echo '<tr>';
+echo '<td colspan="3">';
+echo 'Currently looking at: <a href="'.$wiki_page.'">'.$wiki_page.'</a>';
+echo '</td></tr><tr>';
+echo '<td colspan="3" height="40px"></td>';
+echo '</tr><tr>';
+echo '<td colspan="3"><font size="5"><b>';
+echo 'We think you might also be interested in these other pages on ';
 if ($wiki == "0")
-	echo '<a href="http://www3.cpdl.org/wiki">cpdl.org</a>:</h1>';
+	echo '<a href="http://www3.cpdl.org/wiki">cpdl.org</a>:';
 else
-	echo '<a href="http://imslp.org/wiki">imslp.org</a>:</h1>';
+	echo '<a href="http://imslp.org/wiki">imslp.org</a> :';
+echo '</b></font></td></tr>';
+echo '<tr><td colspan="3" height="20px"></td></tr>';
 
 crossTopix::getSuggestions($wiki_page, $ENDPOINT, $wiki);
-
-echo '<center>';
-echo '<p>Think you can make better suggestions? Head over to the <a href ="http://leo.tw.rpi.edu:81/cross-topix/socialMachine">Social Machine</a> to help out!</p>';
-echo '<img border="0" src="/splash-screen.png" height="80" />';
-echo '<p style="color:green">';
-echo 'Brought to you by Cross-Topix';
-echo '</p>';
+echo '<tr><td colspan="3" height="40px"></td></tr>';
+echo '<tr><td colspan="3" align="center">';
+echo 'Think you can make better suggestions? Head over to the <a href ="http://leo.tw.rpi.edu:81/cross-topix/socialMachine">Social Machine</a> to help out!';
+//echo '<img border="0" src="/splash-screen.png" height="70" />';
+//echo '<p style="color:green">';
+//echo 'Brought to you by Cross-Topix';
+//echo '</p>';
+echo '</td></tr>';
+echo '</table>';
 echo '</center>';
 echo '</body>';
 echo '</html>';
